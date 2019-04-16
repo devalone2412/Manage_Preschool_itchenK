@@ -13,6 +13,7 @@ class LoginVC: UIViewController {
     // Initialize UIControls
     let imgBackground = UIImageView()
     let viewBox = UIView()
+    let imageLogo = UIImageView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,7 @@ class LoginVC: UIViewController {
     }
     
     func eventHandler() {
-        print(123)
+        
     }
 
 }

@@ -19,17 +19,23 @@ extension LoginVC {
     func setupView() {
         addUIControls()
         setupUIControls()
-        setupConstraint()
+        setupConstraints()
     }
     
     func addUIControls() {
         view.addSubview(imgBackground)
         view.addSubview(viewBox)
+        viewBox.addSubview(imageLogo)
     }
     
     func setupUIControls() {
         setupImageBackground()
         setupViewBox()
+        setupImageLogo()
+    }
+    
+    func setupImageLogo() {
+        imageLogo.image = UIImage(named: <#T##String#>)
     }
     
     func setupViewBox() {
@@ -43,18 +49,18 @@ extension LoginVC {
         imgBackground.translatesAutoresizingMaskIntoConstraints = false
     }
     
-    func setupConstraint() {
-        setupImageBackgroundConstraint()
-        setupViewBoxConstraint()
+    func setupConstraints() {
+        setupImageBackgroundConstraints()
+        setupViewBoxConstraints()
     }
     
-    func setupImageBackgroundConstraint() {
+    func setupImageBackgroundConstraints() {
         imgBackground.snp.makeConstraints { (make) in
             make.edges.equalTo(view.safeAreaLayoutGuide)
         }
     }
     
-    func setupViewBoxConstraint() {
+    func setupViewBoxConstraints() {
         viewBox.snp.makeConstraints { (make) in
             make.center.equalToSuperview()
             make.width.equalTo(view.snp.width).multipliedBy(0.8)
