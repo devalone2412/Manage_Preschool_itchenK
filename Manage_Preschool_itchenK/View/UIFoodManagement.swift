@@ -8,3 +8,11 @@
 
 import UIKit
 import SnapKit
+import ChameleonFramework
+
+extension FoodManagementVC {
+    
+    func setupView() {
+        
+    }
+}
