@@ -22,7 +22,7 @@ class LoginVC: UIViewController {
     }
     
     func eventHandler() {
-        
+        print("123")
     }
 
 }
