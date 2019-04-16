@@ -13,6 +13,45 @@ import ChameleonFramework
 extension FoodManagementVC {
     
     func setupView() {
-        
+        addUIControls()
+        setupUIControls()
+        setupConstraints()
+    }
+    
+    func addUIControls() {
+        view.addSubview(imgBackground)
+        view.addSubview(blurView)
+    }
+    
+    func setupUIControls() {
+        setupImageBackground()
+        setupBlurView()
+    }
+    
+    func setupImageBackground() {
+        imgBackground.image = UIImage(named: IMGBACKGROUND)
+        imgBackground.translatesAutoresizingMaskIntoConstraints = false
+    }
+    
+    func setupBlurView() {
+        blurView.effect = blurEffect
+        blurView.alpha=0.93
+        blurView.frame = view.bounds
+    }
+    
+    func setupConstraints() {
+        setupImageBackgroundConstraints()
+        setupBlurViewConstraints()
+    }
+    
+    func setupImageBackgroundConstraints() {
+        imgBackground.snp.makeConstraints { (make) in
+            make.edges.equalTo(view.safeAreaLayoutGuide)
+        }
+    }
+    func setupBlurViewConstraints(){
+        blurView.snp.makeConstraints { (make) in
+            make.edges.equalTo(view.safeAreaLayoutGuide)
+        }
     }
 }

@@ -8,8 +8,15 @@
 
 import UIKit
 
+
 class FoodManagementVC: UIViewController {
 
+    let imgBackground = UIImageView()
+    
+    let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.light)
+    
+    let blurView = UIVisualEffectView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
