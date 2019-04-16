@@ -35,7 +35,11 @@ extension LoginVC {
     }
     
     func setupImageLogo() {
-        imageLogo.image = UIImage(named: )
+        imageLogo.image = UIImage(named: LOGO)
+        imageLogo.contentMode = .scaleAspectFit
+        imageLogo.layer.cornerRadius = 100
+        imageLogo.layer.masksToBounds = true
+        imageLogo.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func setupViewBox() {
@@ -52,6 +56,15 @@ extension LoginVC {
     func setupConstraints() {
         setupImageBackgroundConstraints()
         setupViewBoxConstraints()
+        setupImageLogoConstraints()
+    }
+    
+    func setupImageLogoConstraints() {
+        imageLogo.snp.makeConstraints { (make) in
+            make.centerX.equalToSuperview()
+            make.top.equalToSuperview().offset(20)
+            make.size.equalToSuperview().multipliedBy(0.4)
+        }
     }
     
     func setupImageBackgroundConstraints() {

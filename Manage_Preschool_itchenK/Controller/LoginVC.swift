@@ -13,7 +13,7 @@ class LoginVC: UIViewController {
     // Initialize UIControls
     let imgBackground = UIImageView()
     let viewBox = UIView()
-    let imageLogo = UIImageView()
+    lazy var imageLogo = UIImageView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
