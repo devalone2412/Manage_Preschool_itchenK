@@ -10,3 +10,4 @@ import Foundation
 
 let FONT = "Avenir next"
 let IMGBACKGROUND = "imgBackground"
+let LOGO = "logo"

@@ -35,7 +35,7 @@ extension LoginVC {
     }
     
     func setupImageLogo() {
-        imageLogo.image = UIImage(named: <#T##String#>)
+        imageLogo.image = UIImage(named: )
     }
     
     func setupViewBox() {
@@ -45,7 +45,7 @@ extension LoginVC {
     }
     
     func setupImageBackground() {
-        imgBackground.image = UIImage(named: "imgBackground")
+        imgBackground.image = UIImage(named: IMGBACKGROUND)
         imgBackground.translatesAutoresizingMaskIntoConstraints = false
     }
     
