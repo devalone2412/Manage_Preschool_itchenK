@@ -14,7 +14,11 @@ class FoodManagementVC: UIViewController {
         super.viewDidLoad()
     
         setupView()
+        eventHandler()
     }
-    
+
+    func eventHandler() {
+        print(456)
+    }
 
 }
