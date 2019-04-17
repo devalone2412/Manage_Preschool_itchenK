@@ -21,11 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        //let loginvc = LoginVC()
-        //window?.rootViewController = loginvc
+        let loginvc = LoginVC()
+        window?.rootViewController = loginvc
         
-        let fmvc = FoodManagementVC()
-        window?.rootViewController = fmvc
+//        let fmvc = FoodManagementVC()
+//        window?.rootViewController = fmvc
         
         return true
     }
