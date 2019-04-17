@@ -69,12 +69,14 @@ extension LoginVC {
     
     func setupTfPassword() {
         setupGeneralTextField(tf: tfPassword)
+        tfPassword.tag = 1
         tfPassword.placeholder = "Mật khẩu"
         tfPassword.isSecureTextEntry = true
         tfPassword.returnKeyType = UIReturnKeyType.go
     }
     
     func setupTfEmployeeCode() {
+        tfEmployeeCode.tag = 0
         setupGeneralTextField(tf: tfEmployeeCode)
         tfEmployeeCode.placeholder = "Mã nhân viên"
     }

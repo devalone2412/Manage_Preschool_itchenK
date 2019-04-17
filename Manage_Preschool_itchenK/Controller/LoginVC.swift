@@ -9,7 +9,7 @@
 import UIKit
 
 class LoginVC: UIViewController {
-
+    
     // Initialize UIControls
     let imgBackground = UIImageView()
     let viewBox = UIView()
@@ -19,21 +19,74 @@ class LoginVC: UIViewController {
     let stackView = UIStackView()
     let buttonSignIn = UIButton(type: .system)
     
+    
+    // Variable
+    var defaultPositiontViewY: CGFloat!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         setupView()
         eventHandler()
-        
-        
+        configUIControls()
+    }
+    
+    func configUIControls() {
+        configTextField()
+        configTapGesture()
+    }
+    
+    func configTextField() {
+        tfPassword.delegate = self
+        tfEmployeeCode.delegate = self
+        defaultPositiontViewY = view.frame.origin.y
+    }
+    
+    func configTapGesture() {
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap))
+        view.addGestureRecognizer(tapGesture)
+    }
+    
+    @objc func handleTap() {
+        view.endEditing(true)
+        UIView.animate(withDuration: 0.2) {
+            self.view.frame.origin.y = self.defaultPositiontViewY
+        }
     }
     
     func eventHandler() {
-        
+        buttonSignIn.addTarget(self, action: #selector(buttonSignInTapped), for: .touchUpInside)
     }
-
+    
+    @objc func buttonSignInTapped() {
+        view.endEditing(true)
+        UIView.animate(withDuration: 0.2) {
+            self.view.frame.origin.y = self.defaultPositiontViewY
+        }
+    }
+    
 }
 
 extension LoginVC : UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        let nextTag = textField.tag + 1
+        if let nextResponder = textField.superview?.viewWithTag(nextTag) {
+            nextResponder.becomeFirstResponder()
+        } else {
+            textField.resignFirstResponder()
+            view.frame.origin.y = defaultPositiontViewY
+        }
+        
+        return true
+    }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        
+        UIView.animate(withDuration: 0.5) {
+            self.view.frame.origin.y = -120
+            self.view.layoutIfNeeded()
+        }
+    }
     
 }
