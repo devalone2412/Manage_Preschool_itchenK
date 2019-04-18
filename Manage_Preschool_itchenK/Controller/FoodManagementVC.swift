@@ -12,11 +12,12 @@ import UIKit
 class FoodManagementVC: UIViewController {
 
     let imgBackground = UIImageView()
-    
     let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.light)
-    
     let blurView = UIVisualEffectView()
-    
+    let topViewBox = UIView()
+    let signOut = UIImageView()
+    let add = UIImageView()
+    let tfDashBoard = UILabel()
     override func viewDidLoad() {
         super.viewDidLoad()
     

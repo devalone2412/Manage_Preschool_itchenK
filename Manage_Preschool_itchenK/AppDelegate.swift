@@ -24,8 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let loginvc = LoginVC()
         window?.rootViewController = loginvc
         
-//        let fmvc = FoodManagementVC()
-//        window?.rootViewController = fmvc
+        //let fmvc = FoodManagementVC()
+        //window?.rootViewController = fmvc
         
         return true
     }
