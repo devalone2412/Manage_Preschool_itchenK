@@ -11,7 +11,6 @@ import UIKit
 class CookingScheduleVC: UIViewController {
 
     // Initialize UIControls
-    let backgroundImage = UIImageView()
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -16,24 +16,27 @@ extension CookingScheduleVC {
         addUIControls()
         setupUIControls()
         setupConstraints()
+        setupGeneral()
+    }
+    
+    func setupGeneral() {
+        view.backgroundColor = UIColor.flatWhite()
     }
     
     func setupUIControls() {
-        setupBackgroundImage()
+        
     }
     
     func setupBackgroundImage() {
-        backgroundImage.image = UIImage(named: IMGBACKGROUND)
+        
     }
     
     func addUIControls() {
-        view.addSubview(backgroundImage)
+        
     }
     
     func setupConstraints() {
-        backgroundImage.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
-        }
+        
     }
     
 }
