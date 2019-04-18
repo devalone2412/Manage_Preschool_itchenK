@@ -14,18 +14,7 @@ class TabBarVC: UITabBarController {
         super.viewDidLoad()
 
         setupTabBar()
-    }
-    
-    func setupTabBar() {
-        let cs = CookingScheduleVC()
-        cs.title = "Lịch nấu"
-        let fm = FoodManagementVC()
-        fm.title = "Quản lý món ăn"
-        let im = InventoryManagementVC()
-        im.title = "Quản lý kho"
-        
-        viewControllers = [cs,fm,im]
-        
+        customTabBarItem()
     }
 
 }

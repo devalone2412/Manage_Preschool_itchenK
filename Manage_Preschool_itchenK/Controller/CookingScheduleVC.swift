@@ -10,7 +10,11 @@ import UIKit
 
 class CookingScheduleVC: UIViewController {
 
+    // Initialize variables
+    let daysOfWeek: Array<String> = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6"]
+    
     // Initialize UIControls
+    lazy var dowSegmentedControl: UISegmentedControl = UISegmentedControl(items: daysOfWeek)
     
     override func viewDidLoad() {
         super.viewDidLoad()
