@@ -11,3 +11,5 @@ import Foundation
 let FONT = "Avenir ssNext"
 let IMGBACKGROUND = "imgBackground"
 let LOGO = "logo"
+let SIGNOUT = "icons8-exit"
+let ADD = "icons8-plus_math_filled"
