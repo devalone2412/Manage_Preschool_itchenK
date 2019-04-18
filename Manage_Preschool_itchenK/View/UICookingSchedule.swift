@@ -33,16 +33,28 @@ extension CookingScheduleVC {
     
     func setupUIControls() {
         setupDowSegmentedControl()
+        setupWeekButton()
+    }
+    
+    func setupWeekButton() {
+        weekButton.setTitle("Tuần", for: .normal)
+        weekButton.backgroundColor = FlatWhite()
+        weekButton.setTitleColor(UIColor(contrastingBlackOrWhiteColorOn: FlatWhite(), isFlat: true), for: .normal)
+        weekButton.titleLabel?.font = UIFont(name: FONT, size: 17)
+        weekButton.layer.cornerRadius = 5
+        weekButton.layer.shadowOffset = CGSize(width: 1, height: 1)
+        weekButton.layer.shadowRadius = 1
+        weekButton.layer.shadowOpacity = 0.5
     }
     
     func setupDowSegmentedControl() {
-//        dowSegmentedControl = UISegmentedControl(items: daysOfWeek)
         dowSegmentedControl.selectedSegmentIndex = 0
         dowSegmentedControl.layer.cornerRadius = 5
     }
     
     func addUIControls() {
         view.addSubview(dowSegmentedControl)
+        view.addSubview(weekButton)
     }
     
     func setupConstraints() {
@@ -50,6 +62,13 @@ extension CookingScheduleVC {
             make.top.equalTo(view.safeAreaLayoutGuide).offset(30)
             make.centerX.equalToSuperview()
             make.left.right.equalToSuperview().inset(10)
+        }
+        
+        weekButton.snp.makeConstraints { (make) in
+            make.top.equalTo(dowSegmentedControl.snp.bottom).offset(20)
+            make.left.equalTo(dowSegmentedControl.snp.left)
+            make.width.equalTo(dowSegmentedControl.snp.width).multipliedBy(0.2)
+            make.height.equalTo(dowSegmentedControl.snp.height)
         }
     }
     

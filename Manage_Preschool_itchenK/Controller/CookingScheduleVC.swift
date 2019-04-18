@@ -15,11 +15,25 @@ class CookingScheduleVC: UIViewController {
     
     // Initialize UIControls
     lazy var dowSegmentedControl: UISegmentedControl = UISegmentedControl(items: daysOfWeek)
+    let weekButton: UIButton = UIButton(type: .system)
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupView()
+        eventHandler()
+    }
+    
+    func eventHandler() {
+        weekButtonHandler()
+    }
+    
+    func weekButtonHandler() {
+        weekButton.addTarget(self, action: #selector(weekButtonTapped), for: .touchUpInside)
+    }
+    
+    @objc func weekButtonTapped() {
+        
     }
 
 }

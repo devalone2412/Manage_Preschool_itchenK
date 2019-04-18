@@ -8,7 +8,7 @@
 
 import Foundation
 
-let FONT = "Avenir ssNext"
+let FONT = "Avenir Next"
 let IMGBACKGROUND = "imgBackground"
 let LOGO = "logo"
 let SIGNOUT = "icons8-exit"
