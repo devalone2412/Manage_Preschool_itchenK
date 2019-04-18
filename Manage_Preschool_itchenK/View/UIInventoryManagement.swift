@@ -6,4 +6,28 @@
 //  Copyright © 2019 Luc Thoi Sang. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import SnapKit
+import ChameleonFramework
+
+extension InventoryManagementVC {
+    
+    func setupView() {
+        setupGeneral()
+        addUIControls()
+        setupUIControls()
+    }
+    
+    func setupGeneral() {
+        title = "Quản lý kho"
+    }
+    
+    func addUIControls() {
+        
+    }
+    
+    func setupUIControls() {
+        
+    }
+    
+}

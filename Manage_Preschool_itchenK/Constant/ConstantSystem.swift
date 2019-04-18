@@ -8,6 +8,6 @@
 
 import Foundation
 
-let FONT = "Avenir next"
+let FONT = "Avenir ssNext"
 let IMGBACKGROUND = "imgBackground"
 let LOGO = "logo"

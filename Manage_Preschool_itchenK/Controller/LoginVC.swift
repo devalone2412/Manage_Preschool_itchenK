@@ -63,6 +63,9 @@ class LoginVC: UIViewController {
         UIView.animate(withDuration: 0.2) {
             self.view.frame.origin.y = self.defaultPositiontViewY
         }
+        
+        let tabVC = TabBarVC()
+        present(tabVC, animated: true, completion: nil)
     }
     
 }

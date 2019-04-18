@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D04CFC322688EA300695507 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04CFC222688EA300695507 /* TabBarVC.swift */; };
 		3D530E9A22678E7B009E6A0B /* InventoryManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530E9922678E7B009E6A0B /* InventoryManagementVC.swift */; };
 		3D530E9C226790E2009E6A0B /* UIInventoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */; };
 		3D53185C2267919D003A468D /* CookingScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D53185B2267919D003A468D /* CookingScheduleVC.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D04CFC222688EA300695507 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		3D530E9922678E7B009E6A0B /* InventoryManagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryManagementVC.swift; sourceTree = "<group>"; };
 		3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIInventoryManagement.swift; sourceTree = "<group>"; };
 		3D53185B2267919D003A468D /* CookingScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingScheduleVC.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				3DE01ED922659E4500AB08DB /* LoginVC.swift */,
 				3D530E9922678E7B009E6A0B /* InventoryManagementVC.swift */,
 				3D53185B2267919D003A468D /* CookingScheduleVC.swift */,
+				3D04CFC222688EA300695507 /* TabBarVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				3DE01ED722659E3500AB08DB /* ConstantSystem.swift in Sources */,
 				3D53185C2267919D003A468D /* CookingScheduleVC.swift in Sources */,
 				3DE01EDB22659E4500AB08DB /* LoginVC.swift in Sources */,
+				3D04CFC322688EA300695507 /* TabBarVC.swift in Sources */,
 				3DE01EDE22659E5000AB08DB /* UILogin.swift in Sources */,
 				3DDDE0B922659B1000643E31 /* AppDelegate.swift in Sources */,
 			);

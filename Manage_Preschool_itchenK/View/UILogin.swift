@@ -51,6 +51,7 @@ extension LoginVC {
         buttonSignIn.setTitle("Đăng nhập", for: .normal)
         buttonSignIn.setTitleColor(UIColor(contrastingBlackOrWhiteColorOn: FlatSkyBlue(), isFlat: true), for: .normal)
         buttonSignIn.layer.cornerRadius = 10
+        buttonSignIn.titleLabel?.font = UIFont(name: FONT, size: 17)
         buttonSignIn.translatesAutoresizingMaskIntoConstraints = false
     }
     
@@ -64,6 +65,7 @@ extension LoginVC {
         tf.backgroundColor = UIColor.flatWhite()
         tf.leftView = setPaddingTextField()
         tf.leftViewMode = .always
+        tf.font = UIFont(name: FONT, size: 17)
         tf.translatesAutoresizingMaskIntoConstraints = false
     }
     
@@ -98,7 +100,10 @@ extension LoginVC {
     
     func setupViewBox() {
         viewBox.backgroundColor = UIColor.flatBlack()?.withAlphaComponent(0.7)
-        viewBox.layer.cornerRadius = view.frame.width * 0.1
+        viewBox.layer.cornerRadius = view.frame.width * 0.03
+        viewBox.layer.shadowOffset = CGSize(width: -5, height: 5)
+        viewBox.layer.shadowRadius = 5
+        viewBox.layer.shadowOpacity = 0.5
         viewBox.translatesAutoresizingMaskIntoConstraints = false
     }
     
