@@ -13,7 +13,6 @@ import ChameleonFramework
 extension CookingScheduleVC {
     
     func setupView() {
-        setupGeneral()
         addUIControls()
         setupUIControls()
         setupConstraints()
@@ -29,10 +28,6 @@ extension CookingScheduleVC {
     
     func addUIControls() {
         view.addSubview(backgroundImage)
-    }
-    
-    func setupGeneral() {
-        title = "Lịch nấu"
     }
     
     func setupConstraints() {

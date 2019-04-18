@@ -13,13 +13,8 @@ import ChameleonFramework
 extension InventoryManagementVC {
     
     func setupView() {
-        setupGeneral()
         addUIControls()
         setupUIControls()
-    }
-    
-    func setupGeneral() {
-        title = "Quản lý kho"
     }
     
     func addUIControls() {

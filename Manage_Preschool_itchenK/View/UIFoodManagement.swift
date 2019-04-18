@@ -16,11 +16,6 @@ extension FoodManagementVC {
         addUIControls()
         setupUIControls()
         setupConstraints()
-        setupGeneral()
-    }
-    
-    func setupGeneral() {
-        title = "Quản lý thức ăn"
     }
     
     func addUIControls() {
