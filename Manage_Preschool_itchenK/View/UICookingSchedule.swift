@@ -37,14 +37,9 @@ extension CookingScheduleVC {
     }
     
     func setupWeekButton() {
-        weekButton.setTitle("Tuần", for: .normal)
-        weekButton.backgroundColor = FlatWhite()
-        weekButton.setTitleColor(UIColor(contrastingBlackOrWhiteColorOn: FlatWhite(), isFlat: true), for: .normal)
-        weekButton.titleLabel?.font = UIFont(name: FONT, size: 17)
+        weekButton.setImage(UIImage(named: "icons8-calendar"), for: .normal)
+        weekButton.backgroundColor = UIColor.white
         weekButton.layer.cornerRadius = 5
-        weekButton.layer.shadowOffset = CGSize(width: 1, height: 1)
-        weekButton.layer.shadowRadius = 1
-        weekButton.layer.shadowOpacity = 0.5
     }
     
     func setupDowSegmentedControl() {
@@ -67,8 +62,7 @@ extension CookingScheduleVC {
         weekButton.snp.makeConstraints { (make) in
             make.top.equalTo(dowSegmentedControl.snp.bottom).offset(20)
             make.left.equalTo(dowSegmentedControl.snp.left)
-            make.width.equalTo(dowSegmentedControl.snp.width).multipliedBy(0.2)
-            make.height.equalTo(dowSegmentedControl.snp.height)
+            make.size.equalTo(dowSegmentedControl.snp.width).multipliedBy(0.1)
         }
     }
     
