@@ -33,7 +33,10 @@ class CookingScheduleVC: UIViewController {
     }
     
     @objc func weekButtonTapped() {
-        
+        let calendarPickerVC = CalendarPickerVC()
+        calendarPickerVC.modalTransitionStyle = .crossDissolve
+        calendarPickerVC.modalPresentationStyle = .overCurrentContext
+        self.present(calendarPickerVC, animated: true, completion: nil)
     }
 
 }

@@ -53,16 +53,23 @@ extension CookingScheduleVC {
     }
     
     func setupConstraints() {
-        dowSegmentedControl.snp.makeConstraints { (make) in
-            make.top.equalTo(view.safeAreaLayoutGuide).offset(30)
-            make.centerX.equalToSuperview()
-            make.left.right.equalToSuperview().inset(10)
-        }
-        
+        setupDowSegmentedControlConstraints()
+        setupWeekButtonConstraints()
+    }
+    
+    func setupWeekButtonConstraints() {
         weekButton.snp.makeConstraints { (make) in
             make.top.equalTo(dowSegmentedControl.snp.bottom).offset(20)
             make.left.equalTo(dowSegmentedControl.snp.left)
             make.size.equalTo(dowSegmentedControl.snp.width).multipliedBy(0.1)
+        }
+    }
+    
+    func setupDowSegmentedControlConstraints() {
+        dowSegmentedControl.snp.makeConstraints { (make) in
+            make.top.equalTo(view.safeAreaLayoutGuide).offset(30)
+            make.centerX.equalToSuperview()
+            make.left.right.equalToSuperview().inset(10)
         }
     }
     
