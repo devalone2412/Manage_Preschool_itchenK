@@ -9,4 +9,5 @@ target 'Manage_Preschool_itchenK' do
 pod 'SnapKit'
 pod 'ChameleonFramework/Swift'
 pod 'DatePickerDialog'
+pod 'EasyTipView'
 end

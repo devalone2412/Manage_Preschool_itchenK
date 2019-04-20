@@ -8,25 +8,62 @@
 
 import UIKit
 import DatePickerDialog
+import EasyTipView
+import ChameleonFramework
 
-class CookingScheduleVC: UIViewController {
+class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
+    func easyTipViewDidDismiss(_ tipView: EasyTipView) {
+        print("\(tipView) did dismiss!")
+    }
+    
 
     // Initialize variables
     let daysOfWeek: Array<String> = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6"]
+    var isShow: Bool = true
     
     // Initialize UIControls
     lazy var dowSegmentedControl: UISegmentedControl = UISegmentedControl(items: daysOfWeek)
     let weekButton: UIButton = UIButton(type: .system)
+    let infoButton: UIButton = UIButton(type: .system)
+    var preferences = EasyTipView.Preferences()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupView()
         eventHandler()
+        
+        setupEasyTipView()
+    }
+    
+    func setupEasyTipView() {
+        preferences.drawing.font = UIFont(name: FONT, size: 13)!
+        preferences.drawing.foregroundColor = UIColor(contrastingBlackOrWhiteColorOn:FlatSkyBlue(), isFlat: true )
+        preferences.drawing.backgroundColor = FlatSkyBlue()
+        preferences.drawing.arrowPosition = EasyTipView.ArrowPosition.bottom
+        EasyTipView.globalPreferences = preferences
     }
     
     func eventHandler() {
         weekButtonHandler()
+        infoButtonHandler()
+    }
+    
+    func infoButtonHandler() {
+        infoButton.addTarget(self, action: #selector(infoButtonTapped), for: .touchUpInside)
+    }
+    
+    @objc func infoButtonTapped() {
+        var tipView: EasyTipView?
+        if isShow {
+            tipView = EasyTipView(text: "50 Kcal\tP: 10g\tL: 20g\tG: 30g")
+            tipView?.show(animated: true, forView: infoButton, withinSuperview: self.navigationController?.view)
+            isShow = false
+        } else {
+            tipView?.dismiss()
+//            isShow = true
+        }
+        
     }
     
     func weekButtonHandler() {

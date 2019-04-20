@@ -34,6 +34,11 @@ extension CookingScheduleVC {
     func setupUIControls() {
         setupDowSegmentedControl()
         setupWeekButton()
+        setupInfoButton()
+    }
+    
+    func setupInfoButton() {
+        infoButton.setImage(UIImage(named: "icons8-info"), for: .normal)
     }
     
     func setupWeekButton() {
@@ -50,11 +55,21 @@ extension CookingScheduleVC {
     func addUIControls() {
         view.addSubview(dowSegmentedControl)
         view.addSubview(weekButton)
+        view.addSubview(infoButton)
     }
     
     func setupConstraints() {
         setupDowSegmentedControlConstraints()
         setupWeekButtonConstraints()
+        setupInfoButtonConstraints()
+    }
+    
+    func setupInfoButtonConstraints() {
+        infoButton.snp.makeConstraints { (make) in
+            make.right.equalTo(dowSegmentedControl.snp.right)
+            make.top.equalTo(weekButton.snp.top)
+            make.size.equalTo(weekButton.snp.size)
+        }
     }
     
     func setupWeekButtonConstraints() {
