@@ -14,12 +14,13 @@ extension TabBarVC {
     func setupTabBar() {
         let cs = CookingScheduleVC()
         let navController = UINavigationController(rootViewController: cs)
-        let fm = FoodManagementVC()
-        fm.title = "Quản lý món ăn"
-        let im = InventoryManagementVC()
-        im.title = "Quản lý kho"
         
-        viewControllers = [navController,fm,im]
+        let fm = FoodManagementVC()
+        let navController1 = UINavigationController(rootViewController: fm)
+        let im = InventoryManagementVC()
+        
+        
+        viewControllers = [navController,navController1,im]
     }
     
     func customTabBarItem() {
