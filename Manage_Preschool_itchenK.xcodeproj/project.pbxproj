@@ -13,8 +13,6 @@
 		3D530E9C226790E2009E6A0B /* UIInventoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */; };
 		3D53185C2267919D003A468D /* CookingScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D53185B2267919D003A468D /* CookingScheduleVC.swift */; };
 		3D53185E226791E6003A468D /* UICookingSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D53185D226791E6003A468D /* UICookingSchedule.swift */; };
-		3D82C3E5226A348700C25988 /* CalendarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82C3E4226A348700C25988 /* CalendarPickerVC.swift */; };
-		3D82C3E7226A34B800C25988 /* UICalendarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82C3E6226A34B800C25988 /* UICalendarPicker.swift */; };
 		3DDDE0B922659B1000643E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDE0B822659B1000643E31 /* AppDelegate.swift */; };
 		3DDDE0D622659C9100643E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DDDE0D022659C9100643E31 /* Assets.xcassets */; };
 		3DDDE0DD22659D4000643E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDDE0DC22659D4000643E31 /* LaunchScreen.storyboard */; };
@@ -33,8 +31,6 @@
 		3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIInventoryManagement.swift; sourceTree = "<group>"; };
 		3D53185B2267919D003A468D /* CookingScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingScheduleVC.swift; sourceTree = "<group>"; };
 		3D53185D226791E6003A468D /* UICookingSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICookingSchedule.swift; sourceTree = "<group>"; };
-		3D82C3E4226A348700C25988 /* CalendarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPickerVC.swift; sourceTree = "<group>"; };
-		3D82C3E6226A34B800C25988 /* UICalendarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICalendarPicker.swift; sourceTree = "<group>"; };
 		3DDDE0B522659B1000643E31 /* Manage_Preschool_itchenK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manage_Preschool_itchenK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDDE0B822659B1000643E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DDDE0C422659B1200643E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,7 +107,6 @@
 				3D530E9922678E7B009E6A0B /* InventoryManagementVC.swift */,
 				3D53185B2267919D003A468D /* CookingScheduleVC.swift */,
 				3D04CFC222688EA300695507 /* TabBarVC.swift */,
-				3D82C3E4226A348700C25988 /* CalendarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -124,7 +119,6 @@
 				3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */,
 				3D53185D226791E6003A468D /* UICookingSchedule.swift */,
 				3D04CFC42268C1BC00695507 /* UITabBar.swift */,
-				3D82C3E6226A34B800C25988 /* UICalendarPicker.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -277,8 +271,6 @@
 				3DE01EDB22659E4500AB08DB /* LoginVC.swift in Sources */,
 				3D04CFC322688EA300695507 /* TabBarVC.swift in Sources */,
 				3DE01EDE22659E5000AB08DB /* UILogin.swift in Sources */,
-				3D82C3E5226A348700C25988 /* CalendarPickerVC.swift in Sources */,
-				3D82C3E7226A34B800C25988 /* UICalendarPicker.swift in Sources */,
 				3DDDE0B922659B1000643E31 /* AppDelegate.swift in Sources */,
 				3D04CFC52268C1BC00695507 /* UITabBar.swift in Sources */,
 			);

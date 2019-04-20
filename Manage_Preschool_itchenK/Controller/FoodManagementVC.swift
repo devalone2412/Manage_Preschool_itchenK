@@ -49,6 +49,7 @@ class FoodManagementVC: UIViewController {
         FMCollectionView.widthAnchor.constraint(equalToConstant: view.frame.width).isActive = true
     }
 
+<<<<<<< HEAD
 //    func eventHandler() {
 //        print("456")
 //    }
@@ -60,6 +61,10 @@ extension FoodManagementVC: UICollectionViewDataSource, UICollectionViewDelegate
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 6
+=======
+    func eventHandler() {
+        
+>>>>>>> 973850a8683dd539ba67e7f165d087b3196eeea2
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

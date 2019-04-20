@@ -16,5 +16,4 @@ class TabBarVC: UITabBarController {
         setupTabBar()
         customTabBarItem()
     }
-
 }
