@@ -16,9 +16,6 @@ class CookingScheduleVC: UIViewController {
     // Initialize UIControls
     lazy var dowSegmentedControl: UISegmentedControl = UISegmentedControl(items: daysOfWeek)
     let weekButton: UIButton = UIButton(type: .system)
-    let popupView: UIView = UIView()
-    let buttonInsidePopup: UIButton = UIButton()
-    let cv = UICollectionView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +33,7 @@ class CookingScheduleVC: UIViewController {
     }
     
     @objc func weekButtonTapped() {
-        popupView.isHidden = false
+        
     }
 
 }

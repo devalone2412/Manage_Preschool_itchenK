@@ -34,22 +34,6 @@ extension CookingScheduleVC {
     func setupUIControls() {
         setupDowSegmentedControl()
         setupWeekButton()
-        setupBlackBackground()
-        setupButtonInsidePopup()
-    }
-    
-    func setupButtonInsidePopup() {
-        buttonInsidePopup.backgroundColor = FlatSkyBlue()
-        buttonInsidePopup.setTitle("Hiển thị", for: .normal)
-        buttonInsidePopup.setTitleColor(UIColor(contrastingBlackOrWhiteColorOn: FlatSkyBlue(), isFlat: true), for: .normal)
-        buttonInsidePopup.titleLabel?.font = UIFont(name: FONT, size: 17)
-    }
-    
-    func setupBlackBackground() {
-        popupView.backgroundColor = FlatWhite()
-        popupView.layer.cornerRadius = 10
-        popupView.isHidden = true
-        popupView.clipsToBounds = true
     }
     
     func setupWeekButton() {
@@ -66,31 +50,11 @@ extension CookingScheduleVC {
     func addUIControls() {
         view.addSubview(dowSegmentedControl)
         view.addSubview(weekButton)
-        view.addSubview(popupView)
-        popupView.addSubview(buttonInsidePopup)
     }
     
     func setupConstraints() {
         setupDowSegmentedControlConstraints()
         setupWeekButtonConstraints()
-        setupBlackBackgroundConstraints()
-        setupButtonInsidePopupConstraints()
-    }
-    
-    func setupButtonInsidePopupConstraints() {
-        buttonInsidePopup.snp.makeConstraints { (make) in
-            make.left.right.bottom.equalToSuperview()
-            make.height.equalToSuperview().multipliedBy(0.1)
-        }
-    }
-    
-    func setupBlackBackgroundConstraints() {
-        popupView.snp.makeConstraints { (make) in
-            make.center.equalToSuperview()
-            make.top.equalTo(view.safeAreaLayoutGuide).offset(30)
-            make.left.right.equalToSuperview().inset(20)
-            make.bottom.equalTo(view.safeAreaLayoutGuide).inset(20)
-        }
     }
     
     func setupWeekButtonConstraints() {
