@@ -26,7 +26,7 @@ class FoodManagementVC: UIViewController {
     }
 
     func eventHandler() {
-        print("456")
+        
     }
 
 }
