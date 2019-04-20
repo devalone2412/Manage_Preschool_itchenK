@@ -19,7 +19,7 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
 
     // Initialize variables
     let daysOfWeek: Array<String> = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6"]
-    var isShow: Bool = true
+    weak var tipView: EasyTipView?
     
     // Initialize UIControls
     lazy var dowSegmentedControl: UISegmentedControl = UISegmentedControl(items: daysOfWeek)
@@ -54,16 +54,17 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
     }
     
     @objc func infoButtonTapped() {
-        var tipView: EasyTipView?
-        if isShow {
-            tipView = EasyTipView(text: "50 Kcal\tP: 10g\tL: 20g\tG: 30g")
-            tipView?.show(animated: true, forView: infoButton, withinSuperview: self.navigationController?.view)
-            isShow = false
+        if let tipView = tipView {
+            tipView.dismiss {
+                print("Completion called!")
+            }
         } else {
-            tipView?.dismiss()
-//            isShow = true
+            let text = "50 Kcal\tP: 10g\tL: 20g\tG: 30g"
+            
+            let tip = EasyTipView(text: text, preferences: preferences, delegate: self)
+            tip.show(forView: infoButton)
+            tipView = tip
         }
-        
     }
     
     func weekButtonHandler() {
