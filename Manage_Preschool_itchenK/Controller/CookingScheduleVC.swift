@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DatePickerDialog
 
 class CookingScheduleVC: UIViewController {
 
@@ -34,6 +35,37 @@ class CookingScheduleVC: UIViewController {
     
     @objc func weekButtonTapped() {
         
+        let calendar = Calendar(identifier: .gregorian)
+        var comps = DateComponents()
+        comps.year = 0
+        let maxDate = calendar.date(byAdding: comps, to: Date())
+        comps.day = -30
+        let minDate = calendar.date(byAdding: comps, to: Date())
+        
+        DatePickerDialog().show("Vui lòng chọn ngày", doneButtonTitle: "Hiển thị", cancelButtonTitle: "Huỷ", defaultDate: Date(), minimumDate: minDate, maximumDate: maxDate, datePickerMode: .date) { (date) in
+            guard let date = date else { return }
+            let formatter = DateFormatter()
+            formatter.dateFormat = "MM/dd/yyyy"
+            print(formatter.string(from: date))
+            
+//            let calendar = Calendar.current
+//            let today = calendar.startOfDay(for: Date())
+//            let dayOfWeek = calendar.component(.weekday, from: today)
+//            let weekdays = calendar.range(of: .weekday, in: .weekOfYear, for: today)!
+//            let days = (weekdays.lowerBound ..< weekdays.upperBound)
+//                .compactMap { calendar.date(byAdding: .day, value: $0 - dayOfWeek, to: today) }  // use `flatMap` in Xcode versions before 9.3
+//                .filter { !calendar.isDateInWeekend($0) }
+//            print(calendar)
+//            print(today)
+//            print(dayOfWeek)
+//            print(weekdays)
+//            print(days)
+//            for i in days {
+//                print(i)
+//            }
+            let weekDay = calendar.component(.weekOfYear, from: date)
+            print(weekDay)
+        }
     }
 
 }

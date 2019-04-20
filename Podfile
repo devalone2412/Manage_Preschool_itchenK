@@ -8,4 +8,5 @@ target 'Manage_Preschool_itchenK' do
   # Pods for Manage_Preschool_itchenK
 pod 'SnapKit'
 pod 'ChameleonFramework/Swift'
+pod 'DatePickerDialog'
 end
