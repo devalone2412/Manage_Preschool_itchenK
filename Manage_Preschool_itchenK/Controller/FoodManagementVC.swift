@@ -44,7 +44,7 @@ class FoodManagementVC: UIViewController {
     func setupCollection(){
         
         FMCollectionView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        FMCollectionView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        FMCollectionView.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor).isActive = true
         FMCollectionView.heightAnchor.constraint(equalToConstant: 467  ).isActive = true
         FMCollectionView.widthAnchor.constraint(equalToConstant: view.frame.width).isActive = true
     }
