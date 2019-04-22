@@ -38,31 +38,31 @@ extension FoodManagementVC {
     }
     
     func addUIControls() {
-        //view.addSubview(imgBackground)
-        //view.addSubview(blurView)
-        //view.addSubview(FMCollectionView)
+        view.addSubview(imgBackground)
+        view.addSubview(blurView)
     }
     
     func setupUIControls() {
-        //setupImageBackground()
-        //setupBlurView()
-        //setupCollectionView()
+        setupImgBackground()
+        setupBlurView()
     }
     
+    func setupImgBackground(){
+        imgBackground.image = UIImage(named: IMGBACKGROUND)
+        imgBackground.translatesAutoresizingMaskIntoConstraints = false
+    }
+    
+    func setupBlurView(){
+    }
     
     func setupConstraints() {
-        //setupCollectionViewConstraints()
+        setupImgBackgroundConstraints()
     }
     
-    func setupCollectionView(){
-        //FMCollectionView.backgroundColor=UIColor.black
-        //FMCollectionView.numberOfItems(inSection: 2)
-    }
-    
-    func setupCollectionViewConstraints(){
-//        layout.sectionInset = UIEdgeInsets(top: 20, left: 10, bottom: 10, right: 10)
-//        layout.itemSize = CGSize(width: 60, height: 60)
-//        let FMCollectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: layout)
+    func setupImgBackgroundConstraints(){
+        imgBackground.snp.makeConstraints { (make) in
+            make.edges.equalTo(view.safeAreaLayoutGuide)
+        }
     }
     
     func setupGeneral(){
