@@ -22,7 +22,7 @@ class FoodManagementVC: UIViewController {
         layout.scrollDirection = .vertical
         layout.minimumInteritemSpacing = 30
         layout.minimumLineSpacing = 30
-        collection.backgroundColor=UIColor.black
+        collection.backgroundColor = UIColor.clear
         collection.translatesAutoresizingMaskIntoConstraints = false
         collection.isScrollEnabled = true
         return collection
@@ -80,6 +80,13 @@ extension FoodManagementVC: UICollectionViewDataSource, UICollectionViewDelegate
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 20, left: 25, bottom: 35, right: 25)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let FLVC = FoodListVC()
+        FLVC.modalTransitionStyle = .crossDissolve
+//        present(FLVC, animated: true, completion: nil)
+        navigationController?.pushViewController(FLVC, animated: true)
     }
     
 }

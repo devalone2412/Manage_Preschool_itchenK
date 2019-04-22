@@ -26,6 +26,8 @@
 		3DE01EDE22659E5000AB08DB /* UILogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE01EDC22659E5000AB08DB /* UILogin.swift */; };
 		3DE01EDF22659E5000AB08DB /* UIFoodManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE01EDD22659E5000AB08DB /* UIFoodManagement.swift */; };
 		8A30CD496F27F8AFCEECC48B /* Pods_Manage_Preschool_itchenK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC5E47581384BD04AAABA86 /* Pods_Manage_Preschool_itchenK.framework */; };
+		D82886D0226D545C008EBF7A /* FoodListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82886CF226D545C008EBF7A /* FoodListVC.swift */; };
+		D82886D2226D5492008EBF7A /* UIFoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82886D1226D5492008EBF7A /* UIFoodList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		3DE01EDD22659E5000AB08DB /* UIFoodManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFoodManagement.swift; sourceTree = "<group>"; };
 		7A27227341B3809DBF96CC8D /* Pods-Manage_Preschool_itchenK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manage_Preschool_itchenK.release.xcconfig"; path = "Target Support Files/Pods-Manage_Preschool_itchenK/Pods-Manage_Preschool_itchenK.release.xcconfig"; sourceTree = "<group>"; };
 		8DC5E47581384BD04AAABA86 /* Pods_Manage_Preschool_itchenK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manage_Preschool_itchenK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82886CF226D545C008EBF7A /* FoodListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListVC.swift; sourceTree = "<group>"; };
+		D82886D1226D5492008EBF7A /* UIFoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFoodList.swift; sourceTree = "<group>"; };
 		FAA7D737E77831C704DE6BFC /* Pods-Manage_Preschool_itchenK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manage_Preschool_itchenK.debug.xcconfig"; path = "Target Support Files/Pods-Manage_Preschool_itchenK/Pods-Manage_Preschool_itchenK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				3DE01ED822659E4500AB08DB /* FoodManagementVC.swift */,
+				D82886CF226D545C008EBF7A /* FoodListVC.swift */,
 				3DE01ED922659E4500AB08DB /* LoginVC.swift */,
 				3D530E9922678E7B009E6A0B /* InventoryManagementVC.swift */,
 				3D53185B2267919D003A468D /* CookingScheduleVC.swift */,
@@ -132,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				3DE01EDD22659E5000AB08DB /* UIFoodManagement.swift */,
+				D82886D1226D5492008EBF7A /* UIFoodList.swift */,
 				3DE01EDC22659E5000AB08DB /* UILogin.swift */,
 				3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */,
 				3D53185D226791E6003A468D /* UICookingSchedule.swift */,
@@ -290,10 +296,12 @@
 				3D530E9A22678E7B009E6A0B /* InventoryManagementVC.swift in Sources */,
 				3DE01ED722659E3500AB08DB /* ConstantSystem.swift in Sources */,
 				3D53185C2267919D003A468D /* CookingScheduleVC.swift in Sources */,
+				D82886D0226D545C008EBF7A /* FoodListVC.swift in Sources */,
 				3DDCBB1B226CB82C0082FF98 /* Food.swift in Sources */,
 				3DE01EDB22659E4500AB08DB /* LoginVC.swift in Sources */,
 				3D04CFC322688EA300695507 /* TabBarVC.swift in Sources */,
 				3DE01EDE22659E5000AB08DB /* UILogin.swift in Sources */,
+				D82886D2226D5492008EBF7A /* UIFoodList.swift in Sources */,
 				3DDDE0B922659B1000643E31 /* AppDelegate.swift in Sources */,
 				3DDCBB19226CB6F60082FF98 /* CalendarCell.swift in Sources */,
 				3D04CFC52268C1BC00695507 /* UITabBar.swift in Sources */,
