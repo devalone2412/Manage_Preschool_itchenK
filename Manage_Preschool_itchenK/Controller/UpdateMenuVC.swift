@@ -10,6 +10,9 @@ import UIKit
 
 class UpdateMenuVC: UIViewController {
 
+    let dateLbl = UILabel()
+    let mealLbl = UILabel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

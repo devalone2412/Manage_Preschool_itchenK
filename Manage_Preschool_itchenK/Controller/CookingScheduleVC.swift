@@ -56,7 +56,7 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
     }
     
     func setupEasyTipView() {
-        preferences.drawing.font = UIFont(name: FONT, size: 13)!
+        preferences.drawing.font = UIFont(name: "AvenirNext-Bold", size: 13)!
         preferences.drawing.foregroundColor = UIColor(contrastingBlackOrWhiteColorOn:FlatSkyBlue(), isFlat: true )
         preferences.drawing.backgroundColor = FlatSkyBlue()
         preferences.drawing.arrowPosition = EasyTipView.ArrowPosition.bottom
