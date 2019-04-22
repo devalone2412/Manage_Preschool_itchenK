@@ -19,8 +19,10 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
 
     // Initialize variables
     let daysOfWeek: Array<String> = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6"]
+    let meal = ["Buổi sáng", "Buổi trưa", "Buổi tối"]
     weak var tipView: EasyTipView?
     let calendarCellId = "mainCell"
+    let headerId = "Header"
     
     // Initialize UIControls
     lazy var dowSegmentedControl: UISegmentedControl = UISegmentedControl(items: daysOfWeek)
@@ -50,6 +52,7 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
         calendarCollectionView.dataSource = self
         calendarCollectionView.register(CalendarCell.self, forCellWithReuseIdentifier: calendarCellId)
         calendarCollectionView.showsVerticalScrollIndicator = false
+        calendarCollectionView.register(CalendarCellHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerId)
     }
     
     func setupEasyTipView() {
@@ -92,6 +95,7 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
         let calendar = Calendar(identifier: .gregorian)
         var comps = DateComponents()
         comps.year = 0
+        comps.day = 30
         let maxDate = calendar.date(byAdding: comps, to: Date())
         comps.day = -30
         let minDate = calendar.date(byAdding: comps, to: Date())
@@ -143,14 +147,28 @@ extension CookingScheduleVC : UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.width, height: 150)
+        return CGSize(width: view.frame.width, height: ((view.frame.height) / 3) / 1.5)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 20, left: 8, bottom: 20, right: 8)
+        return UIEdgeInsets(top: 7, left: 8, bottom: 15, right: 8)
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 3
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        if kind == UICollectionView.elementKindSectionHeader {
+            let headerView = calendarCollectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: headerId, for: indexPath) as! CalendarCellHeader
+            headerView.configCalendarHeader(mealText: meal[indexPath.section])
+            return headerView
+        }
+        
+        return CalendarCellHeader()
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+        return CGSize(width: calendarCollectionView.frame.width, height: 25)
     }
 }

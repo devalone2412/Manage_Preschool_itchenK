@@ -36,6 +36,7 @@ class CalendarCell: UICollectionViewCell {
         foodCollectionView.delegate = self
         foodCollectionView.dataSource = self
         foodCollectionView.register(FoodCell.self, forCellWithReuseIdentifier: foodCellId)
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -56,11 +57,11 @@ extension CalendarCell: UICollectionViewDelegate, UICollectionViewDataSource, UI
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: (frame.width - 44 - 20) / 3, height: frame.height - 40)
+        return CGSize(width: (frame.width - 44 - 20) / 3, height: frame.height - 20)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 20, left: 22, bottom: 20, right: 22)
+        return UIEdgeInsets(top: 10, left: 22, bottom: 10, right: 22)
     }
     
     private class FoodCell: UICollectionViewCell {
@@ -102,7 +103,8 @@ extension CalendarCell: UICollectionViewDelegate, UICollectionViewDataSource, UI
             
             imageName.snp.makeConstraints { (make) in
                 make.top.equalTo(imageView.snp.bottom)
-                make.left.right.bottom.equalToSuperview()
+                make.bottom.equalToSuperview()
+                make.left.right.equalToSuperview().inset(5)
                 
             }
         }
