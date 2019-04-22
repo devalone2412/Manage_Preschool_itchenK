@@ -56,19 +56,29 @@ extension CookingScheduleVC {
         view.addSubview(dowSegmentedControl)
         view.addSubview(weekButton)
         view.addSubview(infoButton)
+        view.addSubview(calendarCollectionView)
     }
     
     func setupConstraints() {
         setupDowSegmentedControlConstraints()
         setupWeekButtonConstraints()
         setupInfoButtonConstraints()
+        setupCalendarCollectionViewConstraints()
+    }
+    
+    func setupCalendarCollectionViewConstraints() {
+        calendarCollectionView.snp.makeConstraints { (make) in
+            make.top.equalTo(weekButton.snp.bottom).offset(20)
+            make.left.right.equalToSuperview().inset(10)
+            make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-30)
+        }
     }
     
     func setupInfoButtonConstraints() {
         infoButton.snp.makeConstraints { (make) in
             make.right.equalTo(dowSegmentedControl.snp.right)
-            make.top.equalTo(weekButton.snp.top)
-            make.size.equalTo(weekButton.snp.size)
+            make.centerY.equalTo(weekButton.snp.centerY)
+            make.size.equalTo(weekButton.snp.size).multipliedBy(0.7)
         }
     }
     
@@ -76,7 +86,7 @@ extension CookingScheduleVC {
         weekButton.snp.makeConstraints { (make) in
             make.top.equalTo(dowSegmentedControl.snp.bottom).offset(20)
             make.left.equalTo(dowSegmentedControl.snp.left)
-            make.size.equalTo(dowSegmentedControl.snp.width).multipliedBy(0.1)
+            make.size.equalTo(dowSegmentedControl.snp.width).multipliedBy(0.07)
         }
     }
     

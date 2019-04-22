@@ -20,20 +20,36 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
     // Initialize variables
     let daysOfWeek: Array<String> = ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6"]
     weak var tipView: EasyTipView?
+    let calendarCellId = "mainCell"
     
     // Initialize UIControls
     lazy var dowSegmentedControl: UISegmentedControl = UISegmentedControl(items: daysOfWeek)
     let weekButton: UIButton = UIButton(type: .system)
     let infoButton: UIButton = UIButton(type: .system)
     var preferences = EasyTipView.Preferences()
+    let calendarCollectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.minimumLineSpacing = 16
+        layout.scrollDirection = .vertical
+        let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        cv.backgroundColor = .clear
+        return cv
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupView()
         eventHandler()
-        
         setupEasyTipView()
+        setupCalendarCollectionViewDelegate()
+    }
+    
+    func setupCalendarCollectionViewDelegate() {
+        calendarCollectionView.delegate = self
+        calendarCollectionView.dataSource = self
+        calendarCollectionView.register(CalendarCell.self, forCellWithReuseIdentifier: calendarCellId)
+        calendarCollectionView.showsVerticalScrollIndicator = false
     }
     
     func setupEasyTipView() {
@@ -106,4 +122,35 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
         }
     }
 
+}
+
+// MARK: Extension liên quan UICollectionView
+
+extension CookingScheduleVC : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        if section == 1 {
+            return 1
+        } else if section == 2 {
+            return 1
+        }
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: calendarCellId, for: indexPath) as! CalendarCell
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: view.frame.width, height: 150)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 20, left: 8, bottom: 20, right: 8)
+    }
+    
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 3
+    }
 }
