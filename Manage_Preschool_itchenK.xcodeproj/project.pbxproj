@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3D04CFC322688EA300695507 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04CFC222688EA300695507 /* TabBarVC.swift */; };
 		3D04CFC52268C1BC00695507 /* UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04CFC42268C1BC00695507 /* UITabBar.swift */; };
+		3D1CC1FF226D6A4600F9388E /* UpdateMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CC1FE226D6A4600F9388E /* UpdateMenuVC.swift */; };
+		3D1CC201226D716000F9388E /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CC200226D716000F9388E /* FoodCell.swift */; };
+		3D1CC203226D9F4100F9388E /* ShowDetailsFoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CC202226D9F4100F9388E /* ShowDetailsFoodVC.swift */; };
+		3D1CC205226DA77A00F9388E /* UIUpdateMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CC204226DA77A00F9388E /* UIUpdateMenu.swift */; };
 		3D530E9A22678E7B009E6A0B /* InventoryManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530E9922678E7B009E6A0B /* InventoryManagementVC.swift */; };
 		3D530E9C226790E2009E6A0B /* UIInventoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */; };
 		3D53185C2267919D003A468D /* CookingScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D53185B2267919D003A468D /* CookingScheduleVC.swift */; };
@@ -33,6 +37,10 @@
 /* Begin PBXFileReference section */
 		3D04CFC222688EA300695507 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		3D04CFC42268C1BC00695507 /* UITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBar.swift; sourceTree = "<group>"; };
+		3D1CC1FE226D6A4600F9388E /* UpdateMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateMenuVC.swift; sourceTree = "<group>"; };
+		3D1CC200226D716000F9388E /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		3D1CC202226D9F4100F9388E /* ShowDetailsFoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsFoodVC.swift; sourceTree = "<group>"; };
+		3D1CC204226DA77A00F9388E /* UIUpdateMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUpdateMenu.swift; sourceTree = "<group>"; };
 		3D530E9922678E7B009E6A0B /* InventoryManagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryManagementVC.swift; sourceTree = "<group>"; };
 		3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIInventoryManagement.swift; sourceTree = "<group>"; };
 		3D53185B2267919D003A468D /* CookingScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingScheduleVC.swift; sourceTree = "<group>"; };
@@ -129,6 +137,8 @@
 				3D530E9922678E7B009E6A0B /* InventoryManagementVC.swift */,
 				3D53185B2267919D003A468D /* CookingScheduleVC.swift */,
 				3D04CFC222688EA300695507 /* TabBarVC.swift */,
+				3D1CC1FE226D6A4600F9388E /* UpdateMenuVC.swift */,
+				3D1CC202226D9F4100F9388E /* ShowDetailsFoodVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -144,6 +154,8 @@
 				3D04CFC42268C1BC00695507 /* UITabBar.swift */,
 				3DDCBB18226CB6F60082FF98 /* CalendarCell.swift */,
 				3D59604B226D5267009B39CD /* CalendarCellHeader.swift */,
+				3D1CC200226D716000F9388E /* FoodCell.swift */,
+				3D1CC204226DA77A00F9388E /* UIUpdateMenu.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,6 +306,7 @@
 				3D53185E226791E6003A468D /* UICookingSchedule.swift in Sources */,
 				3DDCBB1E226CB9060082FF98 /* FoodService.swift in Sources */,
 				3D530E9A22678E7B009E6A0B /* InventoryManagementVC.swift in Sources */,
+				3D1CC205226DA77A00F9388E /* UIUpdateMenu.swift in Sources */,
 				3DE01ED722659E3500AB08DB /* ConstantSystem.swift in Sources */,
 				3D53185C2267919D003A468D /* CookingScheduleVC.swift in Sources */,
 				D82886D0226D545C008EBF7A /* FoodListVC.swift in Sources */,
@@ -304,6 +317,9 @@
 				D82886D2226D5492008EBF7A /* UIFoodList.swift in Sources */,
 				3DDDE0B922659B1000643E31 /* AppDelegate.swift in Sources */,
 				3DDCBB19226CB6F60082FF98 /* CalendarCell.swift in Sources */,
+				3D1CC203226D9F4100F9388E /* ShowDetailsFoodVC.swift in Sources */,
+				3D1CC201226D716000F9388E /* FoodCell.swift in Sources */,
+				3D1CC1FF226D6A4600F9388E /* UpdateMenuVC.swift in Sources */,
 				3D04CFC52268C1BC00695507 /* UITabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

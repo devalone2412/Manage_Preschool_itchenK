@@ -34,7 +34,7 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
         layout.minimumLineSpacing = 16
         layout.scrollDirection = .vertical
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        cv.backgroundColor = .clear
+        cv.backgroundColor = .white
         return cv
     }()
     
@@ -125,6 +125,11 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
             print(weekDay)
         }
     }
+    
+    func showDetailsFood() {
+        let showDetailsFood = ShowDetailsFoodVC()
+        navigationController?.pushViewController(showDetailsFood, animated: true)
+    }
 
 }
 
@@ -143,11 +148,12 @@ extension CookingScheduleVC : UICollectionViewDelegate, UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: calendarCellId, for: indexPath) as! CalendarCell
+        cell.cs = self
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.width, height: ((view.frame.height) / 3) / 1.5)
+        return CGSize(width: view.frame.width, height: ((view.frame.height) / 3))
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
@@ -162,6 +168,7 @@ extension CookingScheduleVC : UICollectionViewDelegate, UICollectionViewDataSour
         if kind == UICollectionView.elementKindSectionHeader {
             let headerView = calendarCollectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: headerId, for: indexPath) as! CalendarCellHeader
             headerView.configCalendarHeader(mealText: meal[indexPath.section])
+            headerView.cs = self
             return headerView
         }
         

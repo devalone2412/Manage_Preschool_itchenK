@@ -70,7 +70,7 @@ extension CookingScheduleVC {
         calendarCollectionView.snp.makeConstraints { (make) in
             make.top.equalTo(weekButton.snp.bottom).offset(20)
             make.left.right.equalToSuperview().inset(10)
-            make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-30)
+            make.bottom.equalTo(view.safeAreaLayoutGuide)
         }
     }
     

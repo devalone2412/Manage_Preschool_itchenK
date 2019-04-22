@@ -10,6 +10,8 @@ import UIKit
 
 class CalendarCellHeader: UICollectionReusableView {
     
+    var cs: CookingScheduleVC?
+    
     let meal: UILabel = {
         let lb = UILabel()
         lb.font = UIFont(name: FONT, size: 17)
@@ -28,6 +30,18 @@ class CalendarCellHeader: UICollectionReusableView {
         
         setup()
         setupConstraints()
+        addHandler()
+    }
+    
+    func addHandler() {
+        buttonModify.addTarget(self, action: #selector(modifyMenuBtnTapped), for: .touchUpInside)
+    }
+    
+    @objc func modifyMenuBtnTapped() {
+        
+        let updateMenuVC = UpdateMenuVC()
+        cs?.navigationController?.pushViewController(updateMenuVC, animated: true)
+        
     }
     
     func setup() {
