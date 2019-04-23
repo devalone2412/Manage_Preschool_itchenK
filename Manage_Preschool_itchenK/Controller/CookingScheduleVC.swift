@@ -157,7 +157,7 @@ extension CookingScheduleVC : UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 7, left: 8, bottom: 15, right: 8)
+        return UIEdgeInsets(top: 7, left: 8, bottom: 0, right: 8)
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {

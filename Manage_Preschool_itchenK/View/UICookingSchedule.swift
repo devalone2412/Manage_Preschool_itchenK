@@ -50,6 +50,9 @@ extension CookingScheduleVC {
     func setupDowSegmentedControl() {
         dowSegmentedControl.selectedSegmentIndex = 0
         dowSegmentedControl.layer.cornerRadius = 5
+        let attr = NSDictionary(object: UIFont(name: "AvenirNext-Medium", size: 15)!, forKey: NSAttributedString.Key.font as NSCopying)
+        dowSegmentedControl.setTitleTextAttributes((attr as [NSObject : AnyObject] as [NSObject : AnyObject] as! [NSAttributedString.Key : Any]), for: .normal)
+        
     }
     
     func addUIControls() {
@@ -78,7 +81,7 @@ extension CookingScheduleVC {
         infoButton.snp.makeConstraints { (make) in
             make.right.equalTo(dowSegmentedControl.snp.right)
             make.centerY.equalTo(weekButton.snp.centerY)
-            make.size.equalTo(weekButton.snp.size).multipliedBy(0.7)
+            make.size.equalTo(weekButton.snp.size).multipliedBy(0.8)
         }
     }
     
@@ -86,7 +89,7 @@ extension CookingScheduleVC {
         weekButton.snp.makeConstraints { (make) in
             make.top.equalTo(dowSegmentedControl.snp.bottom).offset(20)
             make.left.equalTo(dowSegmentedControl.snp.left)
-            make.size.equalTo(dowSegmentedControl.snp.width).multipliedBy(0.07)
+            make.size.equalTo(dowSegmentedControl.snp.width).multipliedBy(0.1)
         }
     }
     

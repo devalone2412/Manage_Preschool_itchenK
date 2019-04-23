@@ -13,6 +13,8 @@
 		3D1CC201226D716000F9388E /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CC200226D716000F9388E /* FoodCell.swift */; };
 		3D1CC203226D9F4100F9388E /* ShowDetailsFoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CC202226D9F4100F9388E /* ShowDetailsFoodVC.swift */; };
 		3D1CC205226DA77A00F9388E /* UIUpdateMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CC204226DA77A00F9388E /* UIUpdateMenu.swift */; };
+		3D3AE36E226E18A200D1D5D8 /* FoodDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AE36D226E18A200D1D5D8 /* FoodDetailsCell.swift */; };
+		3D3AE370226E387B00D1D5D8 /* FoodTam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AE36F226E387B00D1D5D8 /* FoodTam.swift */; };
 		3D530E9A22678E7B009E6A0B /* InventoryManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530E9922678E7B009E6A0B /* InventoryManagementVC.swift */; };
 		3D530E9C226790E2009E6A0B /* UIInventoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */; };
 		3D53185C2267919D003A468D /* CookingScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D53185B2267919D003A468D /* CookingScheduleVC.swift */; };
@@ -41,6 +43,8 @@
 		3D1CC200226D716000F9388E /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
 		3D1CC202226D9F4100F9388E /* ShowDetailsFoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsFoodVC.swift; sourceTree = "<group>"; };
 		3D1CC204226DA77A00F9388E /* UIUpdateMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUpdateMenu.swift; sourceTree = "<group>"; };
+		3D3AE36D226E18A200D1D5D8 /* FoodDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsCell.swift; sourceTree = "<group>"; };
+		3D3AE36F226E387B00D1D5D8 /* FoodTam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodTam.swift; path = Manage_Preschool_itchenK/View/FoodTam.swift; sourceTree = SOURCE_ROOT; };
 		3D530E9922678E7B009E6A0B /* InventoryManagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryManagementVC.swift; sourceTree = "<group>"; };
 		3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIInventoryManagement.swift; sourceTree = "<group>"; };
 		3D53185B2267919D003A468D /* CookingScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingScheduleVC.swift; sourceTree = "<group>"; };
@@ -156,6 +160,7 @@
 				3D59604B226D5267009B39CD /* CalendarCellHeader.swift */,
 				3D1CC200226D716000F9388E /* FoodCell.swift */,
 				3D1CC204226DA77A00F9388E /* UIUpdateMenu.swift */,
+				3D3AE36D226E18A200D1D5D8 /* FoodDetailsCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				3DDCBB1A226CB82C0082FF98 /* Food.swift */,
+				3D3AE36F226E387B00D1D5D8 /* FoodTam.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -309,10 +315,12 @@
 				3D1CC205226DA77A00F9388E /* UIUpdateMenu.swift in Sources */,
 				3DE01ED722659E3500AB08DB /* ConstantSystem.swift in Sources */,
 				3D53185C2267919D003A468D /* CookingScheduleVC.swift in Sources */,
+				3D3AE370226E387B00D1D5D8 /* FoodTam.swift in Sources */,
 				D82886D0226D545C008EBF7A /* FoodListVC.swift in Sources */,
 				3DDCBB1B226CB82C0082FF98 /* Food.swift in Sources */,
 				3DE01EDB22659E4500AB08DB /* LoginVC.swift in Sources */,
 				3D04CFC322688EA300695507 /* TabBarVC.swift in Sources */,
+				3D3AE36E226E18A200D1D5D8 /* FoodDetailsCell.swift in Sources */,
 				3DE01EDE22659E5000AB08DB /* UILogin.swift in Sources */,
 				D82886D2226D5492008EBF7A /* UIFoodList.swift in Sources */,
 				3DDDE0B922659B1000643E31 /* AppDelegate.swift in Sources */,

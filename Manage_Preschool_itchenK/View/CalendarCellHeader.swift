@@ -14,7 +14,7 @@ class CalendarCellHeader: UICollectionReusableView {
     
     let meal: UILabel = {
         let lb = UILabel()
-        lb.font = UIFont(name: FONT, size: 17)
+        lb.font = UIFont(name: "AvenirNext-DemiBold", size: 17)
         lb.textAlignment = .left
         return lb
     }()

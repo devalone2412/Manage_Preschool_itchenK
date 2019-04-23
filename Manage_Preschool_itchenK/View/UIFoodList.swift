@@ -59,7 +59,7 @@ extension FoodListVC {
     }
     
     func setupCategoryLabel(){
-        categoryLabel.font = UIFont(name: FONT, size: 17)
+        categoryLabel.font = UIFont(name: "AvenirNext-Medium", size: 17)
         categoryLabel.textColor = UIColor.black
         categoryLabel.textAlignment = .center
         categoryLabel.text = "Cơm"

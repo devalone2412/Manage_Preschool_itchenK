@@ -51,7 +51,7 @@ extension LoginVC {
         buttonSignIn.setTitle("Đăng nhập", for: .normal)
         buttonSignIn.setTitleColor(UIColor(contrastingBlackOrWhiteColorOn: FlatSkyBlue(), isFlat: true), for: .normal)
         buttonSignIn.layer.cornerRadius = 10
-        buttonSignIn.titleLabel?.font = UIFont(name: FONT, size: 17)
+        buttonSignIn.titleLabel?.font = UIFont(name: "AvenirNext-Medium", size: 17)
         buttonSignIn.translatesAutoresizingMaskIntoConstraints = false
     }
     
@@ -65,7 +65,7 @@ extension LoginVC {
         tf.backgroundColor = UIColor.flatWhite()
         tf.leftView = setPaddingTextField()
         tf.leftViewMode = .always
-        tf.font = UIFont(name: FONT, size: 17)
+        tf.font = UIFont(name: "AvenirNext-Medium", size: 17)
         tf.translatesAutoresizingMaskIntoConstraints = false
     }
     

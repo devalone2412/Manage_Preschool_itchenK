@@ -21,7 +21,8 @@ class FoodCell: UICollectionViewCell {
     
     let imageName: UILabel = {
         let lb = UILabel()
-        lb.font = UIFont(name: FONT, size: 13)
+        lb.font = UIFont(name: "AvenirNext-Medium", size: 13)
+        lb.textColor = .black
         lb.numberOfLines = 0
         return lb
     }()
@@ -48,7 +49,7 @@ class FoodCell: UICollectionViewCell {
         
         imageName.snp.makeConstraints { (make) in
             make.top.equalTo(imageView.snp.bottom)
-            make.bottom.equalToSuperview()
+            make.height.equalToSuperview().multipliedBy(0.2)
             make.left.right.equalToSuperview().inset(5)
             
         }

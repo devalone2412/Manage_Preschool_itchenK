@@ -14,8 +14,17 @@ extension UpdateMenuVC {
     func setupView() {
         setupGeneral()
         setupUIControls()
+        setupNavController()
         addUIControls()
         setupConstraints()
+    }
+    
+    func setupNavController() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addNavBtnClicked))
+    }
+    
+    @objc func addNavBtnClicked() {
+        print("Clicked")
     }
     
     func setupGeneral() {
@@ -29,7 +38,7 @@ extension UpdateMenuVC {
     }
     
     func setupDateLbl() {
-        dateLbl.font = UIFont(name: "AvenirNext-Bold", size: 30)
+        dateLbl.font = UIFont(name: "AvenirNext-DemiBold", size: 30)
         dateLbl.text = "1/4/2019"
         dateLbl.textAlignment = .center
     }
@@ -43,6 +52,7 @@ extension UpdateMenuVC {
     func addUIControls() {
         view.addSubview(dateLbl)
         view.addSubview(mealLbl)
+        view.addSubview(tableView)
     }
     
     func setupConstraints() {
@@ -58,6 +68,12 @@ extension UpdateMenuVC {
             make.centerX.equalToSuperview()
             make.width.equalToSuperview().multipliedBy(0.5)
             make.height.equalToSuperview().multipliedBy(0.1)
+        }
+        
+        tableView.snp.makeConstraints { (make) in
+            make.top.equalTo(mealLbl.snp.bottom)
+            make.left.right.equalToSuperview()
+            make.bottom.equalToSuperview()
         }
     }
     
