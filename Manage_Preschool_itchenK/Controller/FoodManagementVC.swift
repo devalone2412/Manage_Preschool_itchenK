@@ -41,6 +41,11 @@ class FoodManagementVC: UIViewController {
         FMCollectionView.register(UIFMCell.self, forCellWithReuseIdentifier: cellIdentifier)
         setupCollection()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        tabBarController?.tabBar.isHidden = false
+    }
+    
     func setupCollection(){
         
         FMCollectionView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true

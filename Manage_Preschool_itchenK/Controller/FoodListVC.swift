@@ -24,7 +24,6 @@ class FoodListVC: UIViewController {
         tv.showsVerticalScrollIndicator = false
         return tv
     }()
-    
     let cellTableId = "cellTable"
     var arrayFoodTam = [FoodTemp]()
     override func viewDidLoad() {
@@ -39,6 +38,7 @@ class FoodListVC: UIViewController {
         FLTableView.dataSource = self
         FLTableView.delegate = self
         FLTableView.register(FoodListCell.self, forCellReuseIdentifier: cellTableId)
+        tabBarController?.tabBar.isHidden = true
     }
     
 
