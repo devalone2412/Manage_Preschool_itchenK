@@ -20,6 +20,8 @@
 		3D53185C2267919D003A468D /* CookingScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D53185B2267919D003A468D /* CookingScheduleVC.swift */; };
 		3D53185E226791E6003A468D /* UICookingSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D53185D226791E6003A468D /* UICookingSchedule.swift */; };
 		3D59604C226D5267009B39CD /* CalendarCellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59604B226D5267009B39CD /* CalendarCellHeader.swift */; };
+		3DB2FF0A226EA9A000A810AE /* AddFoodToMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2FF09226EA9A000A810AE /* AddFoodToMenuVC.swift */; };
+		3DB2FF0C226EAAB000A810AE /* UIAddFoodToMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2FF0B226EAAB000A810AE /* UIAddFoodToMenu.swift */; };
 		3DDCBB19226CB6F60082FF98 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCBB18226CB6F60082FF98 /* CalendarCell.swift */; };
 		3DDCBB1B226CB82C0082FF98 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCBB1A226CB82C0082FF98 /* Food.swift */; };
 		3DDCBB1E226CB9060082FF98 /* FoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCBB1D226CB9060082FF98 /* FoodService.swift */; };
@@ -50,6 +52,8 @@
 		3D53185B2267919D003A468D /* CookingScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingScheduleVC.swift; sourceTree = "<group>"; };
 		3D53185D226791E6003A468D /* UICookingSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICookingSchedule.swift; sourceTree = "<group>"; };
 		3D59604B226D5267009B39CD /* CalendarCellHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCellHeader.swift; sourceTree = "<group>"; };
+		3DB2FF09226EA9A000A810AE /* AddFoodToMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodToMenuVC.swift; sourceTree = "<group>"; };
+		3DB2FF0B226EAAB000A810AE /* UIAddFoodToMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAddFoodToMenu.swift; sourceTree = "<group>"; };
 		3DDCBB18226CB6F60082FF98 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		3DDCBB1A226CB82C0082FF98 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Food.swift; path = Manage_Preschool_itchenK/View/Food.swift; sourceTree = SOURCE_ROOT; };
 		3DDCBB1D226CB9060082FF98 /* FoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodService.swift; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 				3D04CFC222688EA300695507 /* TabBarVC.swift */,
 				3D1CC1FE226D6A4600F9388E /* UpdateMenuVC.swift */,
 				3D1CC202226D9F4100F9388E /* ShowDetailsFoodVC.swift */,
+				3DB2FF09226EA9A000A810AE /* AddFoodToMenuVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 				3D1CC200226D716000F9388E /* FoodCell.swift */,
 				3D1CC204226DA77A00F9388E /* UIUpdateMenu.swift */,
 				3D3AE36D226E18A200D1D5D8 /* FoodDetailsCell.swift */,
+				3DB2FF0B226EAAB000A810AE /* UIAddFoodToMenu.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +318,7 @@
 				3D53185E226791E6003A468D /* UICookingSchedule.swift in Sources */,
 				3DDCBB1E226CB9060082FF98 /* FoodService.swift in Sources */,
 				3D530E9A22678E7B009E6A0B /* InventoryManagementVC.swift in Sources */,
+				3DB2FF0A226EA9A000A810AE /* AddFoodToMenuVC.swift in Sources */,
 				3D1CC205226DA77A00F9388E /* UIUpdateMenu.swift in Sources */,
 				3DE01ED722659E3500AB08DB /* ConstantSystem.swift in Sources */,
 				3D53185C2267919D003A468D /* CookingScheduleVC.swift in Sources */,
@@ -319,6 +326,7 @@
 				D82886D0226D545C008EBF7A /* FoodListVC.swift in Sources */,
 				3DDCBB1B226CB82C0082FF98 /* Food.swift in Sources */,
 				3DE01EDB22659E4500AB08DB /* LoginVC.swift in Sources */,
+				3DB2FF0C226EAAB000A810AE /* UIAddFoodToMenu.swift in Sources */,
 				3D04CFC322688EA300695507 /* TabBarVC.swift in Sources */,
 				3D3AE36E226E18A200D1D5D8 /* FoodDetailsCell.swift in Sources */,
 				3DE01EDE22659E5000AB08DB /* UILogin.swift in Sources */,
