@@ -22,7 +22,23 @@ extension CookingScheduleVC {
     
     func configNavController() {
         navigationItem.title = "Lịch nấu"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "icons8-exit"), style: .plain, target: self, action: #selector(buttonSignOutPressed))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "menu"), style: .plain, target: self, action: #selector(menuTapped))
+    }
+    
+    @objc func menuTapped() {
+        let distanceRightSide = view.frame.size.width - view.frame.size.width * 0.4
+        if isShow {
+            UIView.animate(withDuration: 0.2, delay: 0, options: .curveLinear, animations: {
+                self.menuView.frame.origin.x += distanceRightSide
+            })
+            imageCustomer.layer.cornerRadius = imageCustomer.frame.size.width / 2
+            self.isShow = false
+        } else {
+            UIView.animate(withDuration: 0.2, delay: 0, options: .curveLinear, animations: {
+                self.menuView.frame.origin.x -= distanceRightSide
+            })
+            self.isShow = true
+        }
     }
     
     @objc func buttonSignOutPressed() {
@@ -60,6 +76,8 @@ extension CookingScheduleVC {
         view.addSubview(weekButton)
         view.addSubview(infoButton)
         view.addSubview(calendarCollectionView)
+        view.addSubview(menuView)
+        menuView.addSubview(imageCustomer)
     }
     
     func setupConstraints() {
@@ -67,6 +85,24 @@ extension CookingScheduleVC {
         setupWeekButtonConstraints()
         setupInfoButtonConstraints()
         setupCalendarCollectionViewConstraints()
+        setupMenuViewConstraints()
+        setupImageCustomerConstraints()
+    }
+    
+    func setupImageCustomerConstraints() {
+        imageCustomer.snp.makeConstraints { (make) in
+            make.size.equalTo(menuView.snp.width).multipliedBy(0.8)
+            make.centerX.equalToSuperview()
+            make.top.equalToSuperview().offset(20)
+        }
+    }
+    
+    func setupMenuViewConstraints() {
+        menuView.snp.makeConstraints { (make) in
+            make.width.equalToSuperview().multipliedBy(0.6)
+            make.right.equalTo(view.snp.left).offset(0)
+            make.top.bottom.equalTo(view.safeAreaLayoutGuide)
+        }
     }
     
     func setupCalendarCollectionViewConstraints() {
