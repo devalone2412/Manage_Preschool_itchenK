@@ -23,6 +23,7 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
     weak var tipView: EasyTipView?
     let calendarCellId = "mainCell"
     let headerId = "Header"
+    var isShow = true
     
     // Initialize UIControls
     lazy var dowSegmentedControl: UISegmentedControl = UISegmentedControl(items: daysOfWeek)
@@ -37,6 +38,25 @@ class CookingScheduleVC: UIViewController, EasyTipViewDelegate {
         cv.backgroundColor = .white
         return cv
     }()
+    // --------------------------------------------
+    let menuView: UIView = {
+        let v = UIView()
+        v.backgroundColor = FlatSkyBlue()
+        return v
+    }()
+    
+    let imageCustomer: UIImageView = {
+        let iv = UIImageView()
+        iv.contentMode = .center
+        iv.backgroundColor = FlatWhite()
+        iv.layer.borderColor = UIColor.white.cgColor
+        iv.layer.borderWidth = 3
+        iv.image = UIImage(named: "user")
+        iv.clipsToBounds = true
+        return iv
+    }()
+    
+    // --------------------------------------------
     
     override func viewDidLoad() {
         super.viewDidLoad()

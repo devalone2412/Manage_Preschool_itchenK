@@ -8,113 +8,132 @@
 
 /* Begin PBXBuildFile section */
 		03BC1DC0502F7F084B5D1B88952CED08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702C313A05821BC4953D55E3609F0E87 /* UIKit.framework */; };
-		04F66FA3C83A53525898079B3945E9B6 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5EB9D3C91AD78B1E485F525C5429F /* ConstraintConstantTarget.swift */; };
-		073B947FCF58DF3217FB1BFFA20D5D3F /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 125D4AA0C1F88F240AD5E706FDA1425C /* UIColor+Chameleon.m */; };
-		0B657E1E04A0E466C81DF58EBECF6AE1 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 450FED72933D2F8115B7DAC4346E6E38 /* NSArray+Chameleon.m */; };
-		0C6E2B64A133169E6694D3B7CE028F8F /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABA208A505CB8E1772A7B64A0D557F /* ConstraintPriorityTarget.swift */; };
-		106C9CF7AC2724979EDA0654E8E7BCB5 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE53710EE56D0DC8A9D8F6B3CF951ACC /* UIKitExtensions.swift */; };
-		108A9DFC16807E2F00517CF4E23D00BE /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2F202ECE81B121C3020DC304D8833 /* ConstraintInsets.swift */; };
+		04F66FA3C83A53525898079B3945E9B6 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED94B4FD03F8DC5B556B54EA53857DFA /* ConstraintConstantTarget.swift */; };
+		073B947FCF58DF3217FB1BFFA20D5D3F /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = AB61698B1FC44687986C3D7BEBABBD40 /* UIColor+Chameleon.m */; };
+		0A6B5EA3CBFC85C6F7C2E05CF23541DD /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D7B69527A2807B1F5205F1F91B6DA /* BTNavigationDropdownMenu.swift */; };
+		0B657E1E04A0E466C81DF58EBECF6AE1 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105479C5DFC23EB82D192016BDEB5B4 /* NSArray+Chameleon.m */; };
+		0C6E2B64A133169E6694D3B7CE028F8F /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E09F59F0E2281AF786356592AD6069 /* ConstraintPriorityTarget.swift */; };
+		106C9CF7AC2724979EDA0654E8E7BCB5 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5754715D1D1B561480C1F206B5BC91B7 /* UIKitExtensions.swift */; };
+		108A9DFC16807E2F00517CF4E23D00BE /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A343E9702F616C20602D68254EDEC7B /* ConstraintInsets.swift */; };
 		118225008156738C66B69BF0261DFAE5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA46542BFEA4FD85CCD7EB782D335255 /* QuartzCore.framework */; };
 		12285CBA4D3AA9AD71C418040E9D9A15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2828B00C653ADED8DFE34AD308FECF /* Foundation.framework */; };
-		1B586683C206690E530FF19CAF508A57 /* Pods-Manage_Preschool_itchenK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B847EAF809F18C2D211EADD6A2F0C7 /* Pods-Manage_Preschool_itchenK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22327C004280671E16186F4D131CC59C /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9392C86DDCC53635EA7A83DC47C532D /* ConstraintMakerRelatable.swift */; };
-		22E06035A5CFB0C407AAD71805B204C8 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDBC8A362969AEF469C87AFF05D5583 /* ConstraintMakerPriortizable.swift */; };
-		23B574059CE490AE9CA01580A476AFED /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD6C44BF7856EE3232EA2FDBBCCDAF /* LayoutConstraint.swift */; };
+		22327C004280671E16186F4D131CC59C /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FCF5B128E95810B57C6CF33D7C3A1D /* ConstraintMakerRelatable.swift */; };
+		22E06035A5CFB0C407AAD71805B204C8 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C0FE157C0F096E382586B6E4D94A1 /* ConstraintMakerPriortizable.swift */; };
+		23B574059CE490AE9CA01580A476AFED /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104B91EFC74CC36551E5AA065CD4D837 /* LayoutConstraint.swift */; };
 		2407A809481DD3FD3C5BC617E88F7411 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD278EAB7099A14043EE00B678D80B7 /* CoreGraphics.framework */; };
-		25A8D111D8F21EBE8A89F8254C46E72E /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC5319D4DA366A2048CF66457F692E /* ConstraintLayoutSupportDSL.swift */; };
-		276764CCCAB0F083822B18F3423D316E /* EasyTipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 415B1C775548BAACD310AAE28049FD2F /* EasyTipView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A19C2CB15633EB715E907B635E5A2AF /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362F6DDC870701BA933FC08F1F7AA78 /* ConstraintConfig.swift */; };
-		2D1185BE9CAC5F97EE0A06E9BC7E9A6F /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BF9BFA2709D3E50F7DFE3BCBC454DF /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		309EF05D8DEA75FD163C463F304EF813 /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DDF2198C825F9D1F9145B4D8701144 /* ChameleonShorthand.swift */; };
-		389074CB59EE151F61C40B251D52A737 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A697296800A6666E4D6C83F16B4D9 /* ConstraintLayoutSupport.swift */; };
-		3E5D0D39C6997DB866086735E54A8985 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7B3AFD1EAE5D227D16C6B5E0383CF /* UIColor+ChameleonPrivate.m */; };
-		40E2020B7DD72490917F94FAF7A6C96F /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = B2614873436159116B479321A7B3361A /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4472DB007B7AD18839F0F22784727B74 /* EasyTipView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738CBE5486A30D7AFB7CD6B7AF7E93B /* EasyTipView-dummy.m */; };
-		4758FDCA298ED5B4BBFE7302BFEDE1F0 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E115858A46D7A82A5B0A4B8BB084054C /* ConstraintMaker.swift */; };
-		492BF7C216DCAB077026C4FB5B236D9E /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF258D799D77152A157B94948345ABA /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B219F8E1869A5903D989F4B1FF69AEF /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF65FDB7BABBD4B558E8C07158B677 /* ConstraintDSL.swift */; };
-		5818046C12DA0D8C11D63CD3D9CBE224 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BDE7B8B5E66BEFE8C566084C99F5F1 /* LayoutConstraintItem.swift */; };
-		59B9310884B9ECAEF5D8CE090D9A0AE2 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0A0F81F37C46AED4286D9CFA22288A /* SnapKit-dummy.m */; };
-		5B0DD5E8FD3BF049E7691214635E937E /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4E2D88899FE69D3EFE131BEACC740B /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CA22F72E9EEF5A84133E251C07D62D0 /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B993E5DE1E82E38EBC4F81F2A15951 /* ChameleonFramework-dummy.m */; };
-		6140B1FD47528742DB382D75D6772D70 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1A29EF1C91B291AD4A033883A31AC1 /* ConstraintLayoutGuide.swift */; };
-		6187A3CB3B75ABB947D4847B62374AD2 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE1D8418489FFFD01331E19CA4D49C /* Debugging.swift */; };
-		63970F4F979D711C0ED5CAAE5CBCD8EF /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5694151A184B4FC05BC9C09D8416B97 /* ConstraintViewDSL.swift */; };
-		641A7B34B3FD3C3CD899321E2104E68A /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D29C74FE85B0D2C3083A8723BE6421 /* ConstraintRelatableTarget.swift */; };
-		6BCD01BEDA8627A6DED3283373B5350A /* DatePickerDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ECB01D7C31D5DB36D3307D41C2AA9D /* DatePickerDialog-dummy.m */; };
-		6C7DC9AECC4B57A305E61D417A490FB1 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD324EB287A8E8BEB4419D7CE91E64 /* ConstraintPriority.swift */; };
-		73718FE8E928B406B2027BF5ECF26EF8 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 126C521FA3B555161183192787761D46 /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		817F7D3B8975BAD627364ABE0E000194 /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = A827D0419F7D3AA0C8FC6BCEE31C01F9 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8301F67FE6A00E166C6267B521BE722D /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF37D231D54F3C60AA54FE2FBED5714 /* ConstraintLayoutGuideDSL.swift */; };
-		83B09921E6EFA06AE94A15C5544C1E07 /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EA500B9F1A3231FD646B4333EFB116 /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84249F5514093FEDD80926183FF3D3F0 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267362D97688AD42802BCF686AB1BAC /* ConstraintLayoutGuide+Extensions.swift */; };
-		8C17E2A82E3122A080D7CC9914875664 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0553406AAAC8EFCA163D8D3C34AC31E /* DatePickerDialog.swift */; };
-		8EE25052DEF9F19AD466B3316BB7BD16 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DD1A823FD6ADE056DF82ED806E9A58 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94E7E47B38BCD1277C2973106BAF2CC3 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A415E3D52213BE2A3B29D95474C08 /* UIView+ChameleonPrivate.m */; };
-		9C791528B55F3011649A986812798613 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A77F7CE9AB297A197377A3E979AEFE24 /* ChameleonConstants.m */; };
-		9F4FD169D3781C275B4A79915B3A1448 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C5E2F8F868FE682E8161F4F3B1D5C9 /* Chameleon_.m */; };
-		A1D5B066B529B59BF042AC9CDDE3D0C2 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035EA1E5816F7F66FA9374890007937 /* ConstraintMakerExtendable.swift */; };
+		25A8D111D8F21EBE8A89F8254C46E72E /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14322428E41B0FCD2CA703029283488 /* ConstraintLayoutSupportDSL.swift */; };
+		276764CCCAB0F083822B18F3423D316E /* EasyTipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF4A8A0F6E4D7E422297929F38C4F0C4 /* EasyTipView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2876CEE75A4A479964830F8BB802ED51 /* BTTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C9ED2C2144BEAB03C60DB90039B62 /* BTTableView.swift */; };
+		2A19C2CB15633EB715E907B635E5A2AF /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB09CF25AEFEC7A3F98EAE7434F4F3A8 /* ConstraintConfig.swift */; };
+		2D1185BE9CAC5F97EE0A06E9BC7E9A6F /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 03AC928CDF364B7E8876965640B06424 /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		309EF05D8DEA75FD163C463F304EF813 /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAEEF460D30F86B2E1BD8C1BB04CA0 /* ChameleonShorthand.swift */; };
+		389074CB59EE151F61C40B251D52A737 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE751A374465C7B070D834701EE0EEA /* ConstraintLayoutSupport.swift */; };
+		3B947534AB52B34EE80B59A4EE0EA24C /* BTNavigationDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1D13D49B43A64C32B4EA19867BFB51 /* BTNavigationDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E5D0D39C6997DB866086735E54A8985 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6AD3231AD3C56171347EFF796A9A81 /* UIColor+ChameleonPrivate.m */; };
+		40E2020B7DD72490917F94FAF7A6C96F /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = F360C5EE4DAD4A74B35C77082A845BF2 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4472DB007B7AD18839F0F22784727B74 /* EasyTipView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D3AE12821F7B627C79313B38295A0 /* EasyTipView-dummy.m */; };
+		4758FDCA298ED5B4BBFE7302BFEDE1F0 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F7C3BB6F54ADA991017C5DDEFA1629 /* ConstraintMaker.swift */; };
+		492BF7C216DCAB077026C4FB5B236D9E /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = E07B789F8B94832F727893B2C1294DC3 /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B219F8E1869A5903D989F4B1FF69AEF /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062E448E31BC54B828B762667C5CFAC9 /* ConstraintDSL.swift */; };
+		56232357AF5B1D666355122715E8866C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2828B00C653ADED8DFE34AD308FECF /* Foundation.framework */; };
+		5818046C12DA0D8C11D63CD3D9CBE224 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75F6DB1FF78B77686259BECF321DE68 /* LayoutConstraintItem.swift */; };
+		59B9310884B9ECAEF5D8CE090D9A0AE2 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D5E10E2398C00590649C179CFA87DA /* SnapKit-dummy.m */; };
+		5B0DD5E8FD3BF049E7691214635E937E /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BF00521C997F81C73256A5766479BF /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CA22F72E9EEF5A84133E251C07D62D0 /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE1596369E55223433F31164B999DE4 /* ChameleonFramework-dummy.m */; };
+		6114B3724F5BE0B8D4D8F673FD80F39C /* BTNavigationDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D35CD37EB5CDDAF5C21A17A0554FF /* BTNavigationDropdownMenu-dummy.m */; };
+		6140B1FD47528742DB382D75D6772D70 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EA793E9FC42335AE4A015168F5B98 /* ConstraintLayoutGuide.swift */; };
+		6187A3CB3B75ABB947D4847B62374AD2 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149D5FBF637645FA500EDA5E1216363 /* Debugging.swift */; };
+		634A4E17FDDE3E79C725F17D93ABF8CA /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD222BEF783CF7C9C43F5804AC8AAFE4 /* BTNavigationDropdownMenu.bundle */; };
+		63970F4F979D711C0ED5CAAE5CBCD8EF /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492B12E03F71AB0253ED2919F66BB9F5 /* ConstraintViewDSL.swift */; };
+		641A7B34B3FD3C3CD899321E2104E68A /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2B122DB4985DD4B14A542EC5E910E1 /* ConstraintRelatableTarget.swift */; };
+		6BCD01BEDA8627A6DED3283373B5350A /* DatePickerDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A768959CF0D18021AB21299B5277B3 /* DatePickerDialog-dummy.m */; };
+		6C7DC9AECC4B57A305E61D417A490FB1 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EF129235841032BCE6E6519A22B53 /* ConstraintPriority.swift */; };
+		73718FE8E928B406B2027BF5ECF26EF8 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5B1FBD4745C5839DA39D62AC4830AF /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C0F8CCE08BA884CC034BB58E8CEE39E /* BTTableCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFB44DBFC7890E0494770065CCB14C /* BTTableCellContentView.swift */; };
+		817F7D3B8975BAD627364ABE0E000194 /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 928B5FB4051EA6A92391A04E2E9F3CD3 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8301F67FE6A00E166C6267B521BE722D /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DB8BB3DA5925CFB38BF980ECCAF0CF /* ConstraintLayoutGuideDSL.swift */; };
+		83B09921E6EFA06AE94A15C5544C1E07 /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9E9EBAC73D0D58D8ED16F890516519 /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84249F5514093FEDD80926183FF3D3F0 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62CB8CF94907D8319B8EE4999E48E40 /* ConstraintLayoutGuide+Extensions.swift */; };
+		87E7EF0505D69F8154A2B3CF5026A463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2828B00C653ADED8DFE34AD308FECF /* Foundation.framework */; };
+		8B9E001CDC4AF40F838C0E50C3DB8542 /* Pods-Manage_Preschool_itchenK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FF530164E6AC497828C806BA609700 /* Pods-Manage_Preschool_itchenK-dummy.m */; };
+		8BB371A5EBB031608249E448465BCE29 /* BTConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5EA6015A6DEF60989A5502C39262A /* BTConfiguration.swift */; };
+		8C17E2A82E3122A080D7CC9914875664 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8D3D63411957FE00F7E804C18FE6C /* DatePickerDialog.swift */; };
+		8EE25052DEF9F19AD466B3316BB7BD16 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 25FB759DA06B54A7E8EF9506D5DCF825 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94E7E47B38BCD1277C2973106BAF2CC3 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BA76CB42B172BB6FFBBDAA20BB0DCD /* UIView+ChameleonPrivate.m */; };
+		98DCC25FE33CB748BA694BED7CC95792 /* BTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD05C4E6B2CDA98085B942DEA211E5 /* BTTableViewCell.swift */; };
+		9C791528B55F3011649A986812798613 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D953149088DB0D95F71C4A0724FFC /* ChameleonConstants.m */; };
+		9F4FD169D3781C275B4A79915B3A1448 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = F65401FE930DBA49A5FE2D887AB30711 /* Chameleon_.m */; };
+		A1D5B066B529B59BF042AC9CDDE3D0C2 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421E75598759B2D94D3367B7AFD67A4 /* ConstraintMakerExtendable.swift */; };
 		A4792EC437A6481D540A464CBF18DE2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2828B00C653ADED8DFE34AD308FECF /* Foundation.framework */; };
-		A7F301FEFA26966FD93FE41537DA9833 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E26CBAB57B87133557228D11CFFF86 /* ConstraintDescription.swift */; };
-		AC6847B2F0F622885C36C6AD189CF6D6 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = A811BF9B23970FEA584CB25FFC8BFCD6 /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AED1D56A06E35642A2CD2FA76AC96974 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 980A407787B31B4EC3822BC3B800D0F0 /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B33BB541223B04CBC5C3AB7E3F46592B /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99855C4753A7C9BE0BC11AB69D3589 /* ConstraintOffsetTarget.swift */; };
-		B41F7C069770EAF9D13CBCE1824F02C8 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EE43C02BB300A2F936C20680B14A8 /* ConstraintView.swift */; };
-		BC9C79BB8A830AACC383277B2C0D5E6A /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C33833F00B373A25BCB25A2114573B7 /* ConstraintMakerEditable.swift */; };
-		C2E0E8182CECF4ACEBD4D054EEE0DF96 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A06E2527020824A7653A69506D0266 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C34052A190A73E03219A1EDAC547D29F /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B975903894289C728A9C36118E0D0DC /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4CF60B18C78C3C9E65C51B1234A4ABD /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE7E5E03CF02F868D816FAAD1661648 /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB2BDB3CA9873E7FC2386759F57B2B85 /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B736155808712A81BD945669700E769 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04CAC41A8C82D1B6B47A9F533658E0B /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1936916A50FCC251276E0C3AD4BEDB39 /* UIButton+Chameleon.m */; };
-		D05FC0A055D0231C18A078B7EAF81C96 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041AF44143C98BB8FB3EC724D50F52C /* ConstraintView+Extensions.swift */; };
-		D262410913E9BB29E1E85D4539371F3C /* EasyTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AF94306DA12212B179C94DDEAB182 /* EasyTipView.swift */; };
-		D43CEDCE68CA6E6679E629B36A15A211 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2E8EA9A6850D8FBE43A9DE43BA199 /* UIViewController+Chameleon.m */; };
-		D6A16FD82B9996ED419AEC2D4E9DCE56 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16112090A612ED6AA7263D9F318FE85 /* UILayoutSupport+Extensions.swift */; };
-		D7D5A0C647C3B7CE26DB8497646DEF53 /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8210CAE82B53F88F1A659E055E1C7A55 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9BA55AB9494D090563BC5386DE58BEC /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37CD03EB3D270B208DE6093A1DA7505 /* ConstraintMakerFinalizable.swift */; };
-		E1C059BF433913679C631DAF17BEBDCA /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = D31E35759B496FC575AAE31C665A04A0 /* UINavigationController+Chameleon.m */; };
+		A60850BB9EC0A7549E305C13EA598042 /* BTTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A172BBF88E2373E9C22865F1E711EBDE /* BTTitle.swift */; };
+		A7F301FEFA26966FD93FE41537DA9833 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B7A1FFF823E5D66A9996C516AA68C /* ConstraintDescription.swift */; };
+		AC6847B2F0F622885C36C6AD189CF6D6 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C984E63524E16193B825076C3BACD1 /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED1D56A06E35642A2CD2FA76AC96974 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB1A33409DD8B417C371B4767692F08 /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B33BB541223B04CBC5C3AB7E3F46592B /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F016D57519CC5B05E6DE6F2E309473A7 /* ConstraintOffsetTarget.swift */; };
+		B41F7C069770EAF9D13CBCE1824F02C8 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63672B517E88F4D79F7ACB4E8287CD1E /* ConstraintView.swift */; };
+		B6A89892DD26D4339D22C04199757A2F /* Pods-Manage_Preschool_itchenK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B847EAF809F18C2D211EADD6A2F0C7 /* Pods-Manage_Preschool_itchenK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC9C79BB8A830AACC383277B2C0D5E6A /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744D5BE83E0C1D453497FEDE85FA195E /* ConstraintMakerEditable.swift */; };
+		C2E0E8182CECF4ACEBD4D054EEE0DF96 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F336FCFAE63CCB1CD7A8067052F513E4 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C34052A190A73E03219A1EDAC547D29F /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1673624EC7FC2F40EDEA1103DBB43569 /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4CF60B18C78C3C9E65C51B1234A4ABD /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3D7077421FCBD98E12E1D226675172 /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5783CE9C4B3CE9A8E87876041E8039E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC1892E8983B447A467C560C6F505C9 /* UIView+Extension.swift */; };
+		CB2BDB3CA9873E7FC2386759F57B2B85 /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8D59B2A18DD9A436BB5F76A96D6D82 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04CAC41A8C82D1B6B47A9F533658E0B /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = C436869A7DBD581FA411F1C313CF93EB /* UIButton+Chameleon.m */; };
+		D05FC0A055D0231C18A078B7EAF81C96 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9BCE407CBF06DE3F41EE432704878B /* ConstraintView+Extensions.swift */; };
+		D262410913E9BB29E1E85D4539371F3C /* EasyTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C122ADB1FAFEB7158DF1DE4303103 /* EasyTipView.swift */; };
+		D43CEDCE68CA6E6679E629B36A15A211 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F72C46639A0754E6E8758DAAC8D9D0 /* UIViewController+Chameleon.m */; };
+		D6A16FD82B9996ED419AEC2D4E9DCE56 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026C079E66912E23A66E957FF32E4FA /* UILayoutSupport+Extensions.swift */; };
+		D74D816088E267D03A4D3F2F4B01CBDD /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57DB0B29780B4D1384CC952E427EB4 /* UIViewController+Extension.swift */; };
+		D7D5A0C647C3B7CE26DB8497646DEF53 /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = E9BAFA3B95E776E7CC28598AC17F289A /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9BA55AB9494D090563BC5386DE58BEC /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD26587C0DB592BBC5EC597722D34511 /* ConstraintMakerFinalizable.swift */; };
+		E1C059BF433913679C631DAF17BEBDCA /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = A56D8F9BCB916293629BE249AB3999DA /* UINavigationController+Chameleon.m */; };
 		E3E8827AD4210C8D0A90587400BA12F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2828B00C653ADED8DFE34AD308FECF /* Foundation.framework */; };
-		E418542DAA6B444CEDC23B9304116BA0 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1556E3FED71A4C2E98D265E145BF9F /* ConstraintAttributes.swift */; };
-		E5A6BE4C71C28C97B022E8CE3BC2FAF3 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B09F9B32F3C23038F0BA82C3AF3E1DD /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E81F61619A859276BB7A8C07F2B544DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2828B00C653ADED8DFE34AD308FECF /* Foundation.framework */; };
-		EA2F9BED7BE4C7E5F3BA4A98C006EB97 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D816487B248E803962DA131B88E2D7E /* ConstraintMultiplierTarget.swift */; };
-		EAB7F9DF9A2AA71DD77A3AC43B08DFC6 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA5C5F44F39B52C48B6F4103073DBB /* Constraint.swift */; };
-		EF032AC5472375E3B6E33083B44EBF59 /* Pods-Manage_Preschool_itchenK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FF530164E6AC497828C806BA609700 /* Pods-Manage_Preschool_itchenK-dummy.m */; };
-		F35C81AAA2BE13BE2F00C683C509C968 /* DatePickerDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E66BD3DC573BB61C33480AA39A545142 /* DatePickerDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F39B131A46A0FE42BA8A0BB7FBFF2677 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81139628745746DE12731FDFF63EA802 /* ConstraintItem.swift */; };
-		F3C7CCF320EE9CF764D28B63C63263AC /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6047A2BD22F76419D9EA52EB1A9BBE8 /* UIImage+ChameleonPrivate.m */; };
-		F3FC19C301BD554AA9DCE9C58E0B1E6A /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = AA58BB18EC67A6AD69BB3CC7BF350652 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F76C08342FED84F10146E681E99A805C /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34720B6D5997737441236D6CBBBB191 /* ConstraintInsetTarget.swift */; };
+		E418542DAA6B444CEDC23B9304116BA0 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D928EDB36EB7B7D1957887257CB03E /* ConstraintAttributes.swift */; };
+		E5A6BE4C71C28C97B022E8CE3BC2FAF3 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FC1C952E0C2E991C0EFBF325246352 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA2F9BED7BE4C7E5F3BA4A98C006EB97 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E30801580EDF7ED97707E3CA9FB563 /* ConstraintMultiplierTarget.swift */; };
+		EAB7F9DF9A2AA71DD77A3AC43B08DFC6 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4D52E502722938CDD555126734415 /* Constraint.swift */; };
+		F35C81AAA2BE13BE2F00C683C509C968 /* DatePickerDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8409CCA54C8428054217F9FFA2362C53 /* DatePickerDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F39B131A46A0FE42BA8A0BB7FBFF2677 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5284BD39239D40A40CB1B62BB872D2A /* ConstraintItem.swift */; };
+		F3C7CCF320EE9CF764D28B63C63263AC /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 793207FBE3AE477CAC4B9867FCE31E62 /* UIImage+ChameleonPrivate.m */; };
+		F3FC19C301BD554AA9DCE9C58E0B1E6A /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 58EB031B188EE343D6F9A0D9BDC20160 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F76C08342FED84F10146E681E99A805C /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770496A1A0AE68EA9441255329E2D8C8 /* ConstraintInsetTarget.swift */; };
 		F99487B7F7AFA761B85694DE3261DE7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2828B00C653ADED8DFE34AD308FECF /* Foundation.framework */; };
-		F9A24CE1ECD5B380B4FCD9CF80660B2D /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D38432673BE146600DFC7181CE014 /* Typealiases.swift */; };
-		FA559065418235E1693BAE4A7920F93E /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB88CC734799C3298608F6ED7C43CB6 /* UIAppearance+Swift.m */; };
-		FC3348D1B776D0ED499FFFA7F4F2834B /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8413C2186B83B3287DF3B4D6671C4E3 /* ConstraintRelation.swift */; };
-		FC6519134859499656EDBF5793BB2FF2 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E430F85BAE26BC8CFC78A53E9B23590 /* UILabel+Chameleon.m */; };
+		F9A24CE1ECD5B380B4FCD9CF80660B2D /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF91EB830AED1A2523D121C543A079 /* Typealiases.swift */; };
+		FA559065418235E1693BAE4A7920F93E /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = EE51445E50CCDD06645DFDA41CBD8C11 /* UIAppearance+Swift.m */; };
+		FC3348D1B776D0ED499FFFA7F4F2834B /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272388D203CAADE527234C5B82D7D01 /* ConstraintRelation.swift */; };
+		FC6519134859499656EDBF5793BB2FF2 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = A0172739B139930940E7166235A7E265 /* UILabel+Chameleon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C6240D2203DB2D7BD379B7D03F825BD /* PBXContainerItemProxy */ = {
+		0D63C679BCE6F441D7CE2CBF831755EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 048D21E3C8151CD23D428D38093E1538;
 			remoteInfo = EasyTipView;
 		};
-		88D10932FAEF664A36E6F2731AC8450B /* PBXContainerItemProxy */ = {
+		5A2845CBBFE0ADAF32F920DBFE15C6F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 28BFDC89BA4363F4F3576DEC70EE10AE;
 			remoteInfo = ChameleonFramework;
 		};
-		A8F06EA51B75E0B2E5142E294AF5B67E /* PBXContainerItemProxy */ = {
+		8E5DCB9E3C8DE5AC0395277BE2E87672 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
 		};
-		CBF932A140BDA8F2BE7E6AF0A0165A55 /* PBXContainerItemProxy */ = {
+		91A5DCDA8A2B3E82AB4D70C7C13B44D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5F1E6214A6184999F9D513F4A0E9682;
+			remoteInfo = BTNavigationDropdownMenu;
+		};
+		A328912B37531E8C39472A045164C399 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -124,114 +143,130 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06D29C74FE85B0D2C3083A8723BE6421 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
-		0A1A29EF1C91B291AD4A033883A31AC1 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
-		0FB88CC734799C3298608F6ED7C43CB6 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
-		125D4AA0C1F88F240AD5E706FDA1425C /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
-		126C521FA3B555161183192787761D46 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
-		13332C1C6860A7B8147061DD27AFAD33 /* DatePickerDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerDialog-prefix.pch"; sourceTree = "<group>"; };
-		156C3D9C54AE2D3B9A961D8AE6BC83ED /* DatePickerDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DatePickerDialog.modulemap; sourceTree = "<group>"; };
-		16EA5C5F44F39B52C48B6F4103073DBB /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
-		1936916A50FCC251276E0C3AD4BEDB39 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
-		1B09F9B32F3C23038F0BA82C3AF3E1DD /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
-		1BC7B3AFD1EAE5D227D16C6B5E0383CF /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		20E26CBAB57B87133557228D11CFFF86 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		26ECB01D7C31D5DB36D3307D41C2AA9D /* DatePickerDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DatePickerDialog-dummy.m"; sourceTree = "<group>"; };
-		2738CBE5486A30D7AFB7CD6B7AF7E93B /* EasyTipView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyTipView-dummy.m"; sourceTree = "<group>"; };
-		27E6FCE24C321328638C3BD7C70F6F6A /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30BF65FDB7BABBD4B558E8C07158B677 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
-		3267362D97688AD42802BCF686AB1BAC /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		34AAADD0871D64F76DDDAFB190C9EFBC /* EasyTipView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyTipView-Info.plist"; sourceTree = "<group>"; };
+		00FD05C4E6B2CDA98085B942DEA211E5 /* BTTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTTableViewCell.swift; path = Source/Internal/BTTableViewCell.swift; sourceTree = "<group>"; };
+		03AC928CDF364B7E8876965640B06424 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		040D3AE12821F7B627C79313B38295A0 /* EasyTipView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyTipView-dummy.m"; sourceTree = "<group>"; };
+		062E448E31BC54B828B762667C5CFAC9 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		0699919C5F3240B327CF5678FB2350C4 /* EasyTipView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyTipView-prefix.pch"; sourceTree = "<group>"; };
+		0B3D7077421FCBD98E12E1D226675172 /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		0E2D35CD37EB5CDDAF5C21A17A0554FF /* BTNavigationDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTNavigationDropdownMenu-dummy.m"; sourceTree = "<group>"; };
+		0EB5EA6015A6DEF60989A5502C39262A /* BTConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTConfiguration.swift; path = Source/Internal/BTConfiguration.swift; sourceTree = "<group>"; };
+		104B91EFC74CC36551E5AA065CD4D837 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		1673624EC7FC2F40EDEA1103DBB43569 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		16C602328D7A52B5CBF1355FB7142CC1 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		199B567B12F880FA620E14E9364DE97F /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		1CAFB44DBFC7890E0494770065CCB14C /* BTTableCellContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTTableCellContentView.swift; path = Source/Internal/BTTableCellContentView.swift; sourceTree = "<group>"; };
+		1EA3AB9CB725256207F944D97517569E /* BTNavigationDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTNavigationDropdownMenu.xcconfig; sourceTree = "<group>"; };
+		1F2B122DB4985DD4B14A542EC5E910E1 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		25FB759DA06B54A7E8EF9506D5DCF825 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		2735EBF948BD8786A741B6D3110F03BB /* DatePickerDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatePickerDialog.xcconfig; sourceTree = "<group>"; };
+		31FC1C952E0C2E991C0EFBF325246352 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		355D953149088DB0D95F71C4A0724FFC /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
 		37B50BE3747E2175BE89FB644A37666A /* Pods-Manage_Preschool_itchenK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Manage_Preschool_itchenK.debug.xcconfig"; sourceTree = "<group>"; };
-		3B736155808712A81BD945669700E769 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
-		3D816487B248E803962DA131B88E2D7E /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		3F3606535FE17E4CCB072AD3DC0AC2F3 /* DatePickerDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DatePickerDialog.framework; path = DatePickerDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40AC3E4FDF02F44CD7B51C8BC29669BF /* DatePickerDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatePickerDialog.xcconfig; sourceTree = "<group>"; };
+		3A343E9702F616C20602D68254EDEC7B /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		3CDB62F8A232D287054C820386E021EA /* DatePickerDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerDialog-prefix.pch"; sourceTree = "<group>"; };
+		40BF00521C997F81C73256A5766479BF /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		4113359D6C92C49B85FA052444E6D6AE /* Pods-Manage_Preschool_itchenK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Manage_Preschool_itchenK-acknowledgements.plist"; sourceTree = "<group>"; };
-		415B1C775548BAACD310AAE28049FD2F /* EasyTipView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyTipView-umbrella.h"; sourceTree = "<group>"; };
-		422EE023ADA6E4C7C9CA82357FCF71A7 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
-		44B2F202ECE81B121C3020DC304D8833 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
-		44EA500B9F1A3231FD646B4333EFB116 /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
-		450FED72933D2F8115B7DAC4346E6E38 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
-		4BAD6C44BF7856EE3232EA2FDBBCCDAF /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
-		4DE958CF5E292EF8EDDD431B11395989 /* EasyTipView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyTipView-prefix.pch"; sourceTree = "<group>"; };
+		42FCF5B128E95810B57C6CF33D7C3A1D /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		492B12E03F71AB0253ED2919F66BB9F5 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		4BC192A0C4FEB657966E595F9F48A895 /* BTNavigationDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTNavigationDropdownMenu.modulemap; sourceTree = "<group>"; };
+		4D14B44E806FE79DC4241A4C4261766D /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E28B30F603D5BC2716688EE6A567AC1 /* Pods-Manage_Preschool_itchenK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Manage_Preschool_itchenK-acknowledgements.markdown"; sourceTree = "<group>"; };
-		509125A06362F0D61CB4043D0094C45F /* Pods_Manage_Preschool_itchenK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Manage_Preschool_itchenK.framework; path = "Pods-Manage_Preschool_itchenK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5755CC85B7A362958A17983448321736 /* EasyTipView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyTipView.framework; path = EasyTipView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5105479C5DFC23EB82D192016BDEB5B4 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		54E09F59F0E2281AF786356592AD6069 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		574F1A549D3FD9E9D8D8F4A22D1B24EA /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5754715D1D1B561480C1F206B5BC91B7 /* UIKitExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = Source/UIKitExtensions.swift; sourceTree = "<group>"; };
+		58EB031B188EE343D6F9A0D9BDC20160 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		5B1C9ED2C2144BEAB03C60DB90039B62 /* BTTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTTableView.swift; path = Source/Internal/BTTableView.swift; sourceTree = "<group>"; };
 		5BD278EAB7099A14043EE00B678D80B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		5D1556E3FED71A4C2E98D265E145BF9F /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		628E24FA42EE687CFD9380443C24728E /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
-		66DD1A823FD6ADE056DF82ED806E9A58 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
-		6AF37D231D54F3C60AA54FE2FBED5714 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
-		6B975903894289C728A9C36118E0D0DC /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
-		6E2AF94306DA12212B179C94DDEAB182 /* EasyTipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyTipView.swift; path = Source/EasyTipView.swift; sourceTree = "<group>"; };
-		6E430F85BAE26BC8CFC78A53E9B23590 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		5D1D13D49B43A64C32B4EA19867BFB51 /* BTNavigationDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTNavigationDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
+		600F66CB4411505467CC78512ABA25AF /* BTNavigationDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTNavigationDropdownMenu.framework; path = BTNavigationDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EBD23F63FF0E1018EC731801452BDB /* DatePickerDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DatePickerDialog.framework; path = DatePickerDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63672B517E88F4D79F7ACB4E8287CD1E /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		64DBB4D16AF026F418997908C2644CD8 /* DatePickerDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DatePickerDialog.modulemap; sourceTree = "<group>"; };
+		65F7C3BB6F54ADA991017C5DDEFA1629 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		683B7A1FFF823E5D66A9996C516AA68C /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		68D928EDB36EB7B7D1957887257CB03E /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		6A57DB0B29780B4D1384CC952E427EB4 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "Source/Extension/UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		7026C079E66912E23A66E957FF32E4FA /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		702C313A05821BC4953D55E3609F0E87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7041AF44143C98BB8FB3EC724D50F52C /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		730D923D2051F4EA80DE3657916E0E3E /* Pods-Manage_Preschool_itchenK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Manage_Preschool_itchenK.release.xcconfig"; sourceTree = "<group>"; };
-		77A746DF90FADE6ADA5D2C0510B200FD /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		7B99855C4753A7C9BE0BC11AB69D3589 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		7C33833F00B373A25BCB25A2114573B7 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		7CAD324EB287A8E8BEB4419D7CE91E64 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
-		7EE7E5E03CF02F868D816FAAD1661648 /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
-		81139628745746DE12731FDFF63EA802 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		8210CAE82B53F88F1A659E055E1C7A55 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
-		82B993E5DE1E82E38EBC4F81F2A15951 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
-		8362F6DDC870701BA933FC08F1F7AA78 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
-		83EAD8777DBE8A0ED7A8B8BF22AEE2AC /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
-		8B4B29596027E83697BFA7E4DF828CDC /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		8CF258D799D77152A157B94948345ABA /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
-		9035EA1E5816F7F66FA9374890007937 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
-		980A407787B31B4EC3822BC3B800D0F0 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
-		98FB3F44843B1E02CA1EAFD1E020A3C3 /* DatePickerDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DatePickerDialog-Info.plist"; sourceTree = "<group>"; };
-		9A1A415E3D52213BE2A3B29D95474C08 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		9B4D38432673BE146600DFC7181CE014 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		744D5BE83E0C1D453497FEDE85FA195E /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		75CF91EB830AED1A2523D121C543A079 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		770496A1A0AE68EA9441255329E2D8C8 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		793207FBE3AE477CAC4B9867FCE31E62 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		79E17ECF14E9D316F2D7B123F5D32FEB /* EasyTipView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyTipView-Info.plist"; sourceTree = "<group>"; };
+		7AC1892E8983B447A467C560C6F505C9 /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "Source/Extension/UIView+Extension.swift"; sourceTree = "<group>"; };
+		7ACB5CF085776299391433471BCAAB10 /* ChameleonFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChameleonFramework-Info.plist"; sourceTree = "<group>"; };
+		7CB1A33409DD8B417C371B4767692F08 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		7D9EF129235841032BCE6E6519A22B53 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		7E723A2351D82F5E6AE394F22DED5849 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		80C422754282B64CCFCC82C3E9712113 /* DatePickerDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DatePickerDialog-Info.plist"; sourceTree = "<group>"; };
+		81C984E63524E16193B825076C3BACD1 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		8272388D203CAADE527234C5B82D7D01 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		8409CCA54C8428054217F9FFA2362C53 /* DatePickerDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerDialog-umbrella.h"; sourceTree = "<group>"; };
+		8421E75598759B2D94D3367B7AFD67A4 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		86756B62E4976442949A2DE20D15EAE0 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		86C10F1C7A0EFC28B01BC19B9AAEA7D0 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		89E30801580EDF7ED97707E3CA9FB563 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		8E4D7B69527A2807B1F5205F1F91B6DA /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTNavigationDropdownMenu.swift; path = Source/BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
+		91274F383FB6F582474E8704678A187A /* EasyTipView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyTipView.xcconfig; sourceTree = "<group>"; };
+		928B5FB4051EA6A92391A04E2E9F3CD3 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		92D4D52E502722938CDD555126734415 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		99DB8BB3DA5925CFB38BF980ECCAF0CF /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		9C4C0FE157C0F096E382586B6E4D94A1 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		9D81AF2CA6283294E163F16A6358A323 /* EasyTipView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyTipView.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2ED7C058EA0958B4756983CEE098594 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
-		A4A06E2527020824A7653A69506D0266 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
-		A77F7CE9AB297A197377A3E979AEFE24 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
-		A811BF9B23970FEA584CB25FFC8BFCD6 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
-		A827D0419F7D3AA0C8FC6BCEE31C01F9 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
-		A98A697296800A6666E4D6C83F16B4D9 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		9EBAEEF460D30F86B2E1BD8C1BB04CA0 /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
+		A0172739B139930940E7166235A7E265 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		A172BBF88E2373E9C22865F1E711EBDE /* BTTitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTTitle.swift; path = Source/BTTitle.swift; sourceTree = "<group>"; };
+		A21A7146E085497DC2B3DC3E65303276 /* EasyTipView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyTipView.framework; path = EasyTipView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56D8F9BCB916293629BE249AB3999DA /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		A9A768959CF0D18021AB21299B5277B3 /* DatePickerDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DatePickerDialog-dummy.m"; sourceTree = "<group>"; };
 		AA46542BFEA4FD85CCD7EB782D335255 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		AA4E2D88899FE69D3EFE131BEACC740B /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		AA58BB18EC67A6AD69BB3CC7BF350652 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
-		AF9F35EEFB4D36A0205335F679B59E23 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2614873436159116B479321A7B3361A /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
-		B2BF9BFA2709D3E50F7DFE3BCBC454DF /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
-		B34720B6D5997737441236D6CBBBB191 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
-		B8413C2186B83B3287DF3B4D6671C4E3 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		AB61698B1FC44687986C3D7BEBABBD40 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		ABF0863E06A501064EFA982E32412F5D /* Pods_Manage_Preschool_itchenK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Manage_Preschool_itchenK.framework; path = "Pods-Manage_Preschool_itchenK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8EA793E9FC42335AE4A015168F5B98 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		B4BA76CB42B172BB6FFBBDAA20BB0DCD /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		B9F72C46639A0754E6E8758DAAC8D9D0 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		BC6AD3231AD3C56171347EFF796A9A81 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		BD222BEF783CF7C9C43F5804AC8AAFE4 /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BTNavigationDropdownMenu.bundle; path = Source/BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
 		BD94C9647CB2F194F2EDC9BD1975809D /* Pods-Manage_Preschool_itchenK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Manage_Preschool_itchenK.modulemap"; sourceTree = "<group>"; };
-		BDDBC8A362969AEF469C87AFF05D5583 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
-		BE53710EE56D0DC8A9D8F6B3CF951ACC /* UIKitExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = Source/UIKitExtensions.swift; sourceTree = "<group>"; };
-		BECC5319D4DA366A2048CF66457F692E /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		BE8D59B2A18DD9A436BB5F76A96D6D82 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		BF9E9EBAC73D0D58D8ED16F890516519 /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		C03C122ADB1FAFEB7158DF1DE4303103 /* EasyTipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyTipView.swift; path = Source/EasyTipView.swift; sourceTree = "<group>"; };
 		C36B0511B1D18E07E7AFF60632855A12 /* Pods-Manage_Preschool_itchenK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Manage_Preschool_itchenK-frameworks.sh"; sourceTree = "<group>"; };
-		C39E28260286E550AD06C417375B8551 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		C816B5BD9C4869539833010D33F9A6D8 /* ChameleonFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChameleonFramework-Info.plist"; sourceTree = "<group>"; };
-		C9392C86DDCC53635EA7A83DC47C532D /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		D31E35759B496FC575AAE31C665A04A0 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
-		D52EE43C02BB300A2F936C20680B14A8 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
-		D6047A2BD22F76419D9EA52EB1A9BBE8 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		D6ABA208A505CB8E1772A7B64A0D557F /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		C3D5E10E2398C00590649C179CFA87DA /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		C436869A7DBD581FA411F1C313CF93EB /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		CD26587C0DB592BBC5EC597722D34511 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		CF4A8A0F6E4D7E422297929F38C4F0C4 /* EasyTipView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyTipView-umbrella.h"; sourceTree = "<group>"; };
+		CF9BCE407CBF06DE3F41EE432704878B /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		CFE751A374465C7B070D834701EE0EEA /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		D13E454182B68193E40E5137D42904AB /* BTNavigationDropdownMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTNavigationDropdownMenu-Info.plist"; sourceTree = "<group>"; };
+		D14322428E41B0FCD2CA703029283488 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		D149D5FBF637645FA500EDA5E1216363 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		D5284BD39239D40A40CB1B62BB872D2A /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		D75F6DB1FF78B77686259BECF321DE68 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		DB09CF25AEFEC7A3F98EAE7434F4F3A8 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
 		DB2828B00C653ADED8DFE34AD308FECF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E0BDE7B8B5E66BEFE8C566084C99F5F1 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		E0C5E2F8F868FE682E8161F4F3B1D5C9 /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
-		E115858A46D7A82A5B0A4B8BB084054C /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
-		E2D2E8EA9A6850D8FBE43A9DE43BA199 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
-		E37CD03EB3D270B208DE6093A1DA7505 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
-		E5694151A184B4FC05BC9C09D8416B97 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		E5B0C400F30106486ED8C27A2D4A376B /* EasyTipView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyTipView.xcconfig; sourceTree = "<group>"; };
-		E66BD3DC573BB61C33480AA39A545142 /* DatePickerDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerDialog-umbrella.h"; sourceTree = "<group>"; };
+		E07B789F8B94832F727893B2C1294DC3 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
 		E7CBCEC9EB2A0677B54C485E8B0EC1C5 /* Pods-Manage_Preschool_itchenK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Manage_Preschool_itchenK-Info.plist"; sourceTree = "<group>"; };
 		E9B847EAF809F18C2D211EADD6A2F0C7 /* Pods-Manage_Preschool_itchenK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Manage_Preschool_itchenK-umbrella.h"; sourceTree = "<group>"; };
-		F0553406AAAC8EFCA163D8D3C34AC31E /* DatePickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = Sources/DatePickerDialog.swift; sourceTree = "<group>"; };
-		F0DDF2198C825F9D1F9145B4D8701144 /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
-		F16112090A612ED6AA7263D9F318FE85 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
-		F462D1BA14F3DC4F71767E5642623D63 /* EasyTipView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyTipView.modulemap; sourceTree = "<group>"; };
-		F8FE1D8418489FFFD01331E19CA4D49C /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		E9BAFA3B95E776E7CC28598AC17F289A /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		ED94B4FD03F8DC5B556B54EA53857DFA /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		EDE1596369E55223433F31164B999DE4 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		EE51445E50CCDD06645DFDA41CBD8C11 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		EFAD3C7305D4B778CC08D38D471C4C49 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		EFC57928D3B354FD9C428D25F51ABEA8 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		F016D57519CC5B05E6DE6F2E309473A7 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		F336FCFAE63CCB1CD7A8067052F513E4 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		F360C5EE4DAD4A74B35C77082A845BF2 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		F62CB8CF94907D8319B8EE4999E48E40 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		F65401FE930DBA49A5FE2D887AB30711 /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
 		F9FF530164E6AC497828C806BA609700 /* Pods-Manage_Preschool_itchenK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Manage_Preschool_itchenK-dummy.m"; sourceTree = "<group>"; };
-		FE0A0F81F37C46AED4286D9CFA22288A /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
-		FEA5EB9D3C91AD78B1E485F525C5429F /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		FBB8D3D63411957FE00F7E804C18FE6C /* DatePickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = Sources/DatePickerDialog.swift; sourceTree = "<group>"; };
+		FEDBE0FBD9F0F0329856EE192460795E /* BTNavigationDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTNavigationDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
+		FF5B1FBD4745C5839DA39D62AC4830AF /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +286,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75A7AAA6936FCE8D6DA07FA1CAF99252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56232357AF5B1D666355122715E8866C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86901BE024B69C52AA798C6232110BCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,11 +302,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB478D33FD1A9E8173A14458349ADA4D /* Frameworks */ = {
+		B04D447B240069F2EDA1D13D559A9B44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81F61619A859276BB7A8C07F2B544DA /* Foundation.framework in Frameworks */,
+				87E7EF0505D69F8154A2B3CF5026A463 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +324,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		009462B06A88292573E61DE64885ACC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BC192A0C4FEB657966E595F9F48A895 /* BTNavigationDropdownMenu.modulemap */,
+				1EA3AB9CB725256207F944D97517569E /* BTNavigationDropdownMenu.xcconfig */,
+				0E2D35CD37EB5CDDAF5C21A17A0554FF /* BTNavigationDropdownMenu-dummy.m */,
+				D13E454182B68193E40E5137D42904AB /* BTNavigationDropdownMenu-Info.plist */,
+				FEDBE0FBD9F0F0329856EE192460795E /* BTNavigationDropdownMenu-prefix.pch */,
+				5D1D13D49B43A64C32B4EA19867BFB51 /* BTNavigationDropdownMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BTNavigationDropdownMenu";
+			sourceTree = "<group>";
+		};
 		03D25F61B5496857404BB4D659DD1AF4 /* Pods-Manage_Preschool_itchenK */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,43 +355,91 @@
 			path = "Target Support Files/Pods-Manage_Preschool_itchenK";
 			sourceTree = "<group>";
 		};
-		149A43D71D92CC1EF7BE3B62532C4AB7 /* Support Files */ = {
+		05B7C5E31798463BAA49874ADEA994AF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				83EAD8777DBE8A0ED7A8B8BF22AEE2AC /* ChameleonFramework.modulemap */,
-				422EE023ADA6E4C7C9CA82357FCF71A7 /* ChameleonFramework.xcconfig */,
-				82B993E5DE1E82E38EBC4F81F2A15951 /* ChameleonFramework-dummy.m */,
-				C816B5BD9C4869539833010D33F9A6D8 /* ChameleonFramework-Info.plist */,
-				A2ED7C058EA0958B4756983CEE098594 /* ChameleonFramework-prefix.pch */,
-				6B975903894289C728A9C36118E0D0DC /* ChameleonFramework-umbrella.h */,
+				08E579EDD27A67F35278AF0783156DF3 /* BTNavigationDropdownMenu */,
+				F330A9113736EA4016EA1CD5167E1212 /* ChameleonFramework */,
+				BDB8EC7C2128541B229E0ED0952A4203 /* DatePickerDialog */,
+				C1E771D5C9339111A955B1ED61428755 /* EasyTipView */,
+				10E29D032C3EE9277C75D66F1A0F7564 /* SnapKit */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ChameleonFramework";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		22A1BBAB0D8A7EE765BF4C5139AAB809 /* Support Files */ = {
+		08E579EDD27A67F35278AF0783156DF3 /* BTNavigationDropdownMenu */ = {
 			isa = PBXGroup;
 			children = (
-				F462D1BA14F3DC4F71767E5642623D63 /* EasyTipView.modulemap */,
-				E5B0C400F30106486ED8C27A2D4A376B /* EasyTipView.xcconfig */,
-				2738CBE5486A30D7AFB7CD6B7AF7E93B /* EasyTipView-dummy.m */,
-				34AAADD0871D64F76DDDAFB190C9EFBC /* EasyTipView-Info.plist */,
-				4DE958CF5E292EF8EDDD431B11395989 /* EasyTipView-prefix.pch */,
-				415B1C775548BAACD310AAE28049FD2F /* EasyTipView-umbrella.h */,
+				0EB5EA6015A6DEF60989A5502C39262A /* BTConfiguration.swift */,
+				8E4D7B69527A2807B1F5205F1F91B6DA /* BTNavigationDropdownMenu.swift */,
+				1CAFB44DBFC7890E0494770065CCB14C /* BTTableCellContentView.swift */,
+				5B1C9ED2C2144BEAB03C60DB90039B62 /* BTTableView.swift */,
+				00FD05C4E6B2CDA98085B942DEA211E5 /* BTTableViewCell.swift */,
+				A172BBF88E2373E9C22865F1E711EBDE /* BTTitle.swift */,
+				7AC1892E8983B447A467C560C6F505C9 /* UIView+Extension.swift */,
+				6A57DB0B29780B4D1384CC952E427EB4 /* UIViewController+Extension.swift */,
+				E6961DB347EF53E207F4DC7687158166 /* Resources */,
+				009462B06A88292573E61DE64885ACC5 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/EasyTipView";
+			name = BTNavigationDropdownMenu;
+			path = BTNavigationDropdownMenu;
 			sourceTree = "<group>";
 		};
-		277520EA85F740528E5E39A878601681 /* ChameleonFramework */ = {
+		10E29D032C3EE9277C75D66F1A0F7564 /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
-				8EF8DED8197ECCE67FE9636B98D51B18 /* Default */,
-				149A43D71D92CC1EF7BE3B62532C4AB7 /* Support Files */,
-				A152C65C86650BBC7F207C1EA1C0C9E7 /* Swift */,
+				92D4D52E502722938CDD555126734415 /* Constraint.swift */,
+				68D928EDB36EB7B7D1957887257CB03E /* ConstraintAttributes.swift */,
+				DB09CF25AEFEC7A3F98EAE7434F4F3A8 /* ConstraintConfig.swift */,
+				ED94B4FD03F8DC5B556B54EA53857DFA /* ConstraintConstantTarget.swift */,
+				683B7A1FFF823E5D66A9996C516AA68C /* ConstraintDescription.swift */,
+				062E448E31BC54B828B762667C5CFAC9 /* ConstraintDSL.swift */,
+				3A343E9702F616C20602D68254EDEC7B /* ConstraintInsets.swift */,
+				770496A1A0AE68EA9441255329E2D8C8 /* ConstraintInsetTarget.swift */,
+				D5284BD39239D40A40CB1B62BB872D2A /* ConstraintItem.swift */,
+				AC8EA793E9FC42335AE4A015168F5B98 /* ConstraintLayoutGuide.swift */,
+				F62CB8CF94907D8319B8EE4999E48E40 /* ConstraintLayoutGuide+Extensions.swift */,
+				99DB8BB3DA5925CFB38BF980ECCAF0CF /* ConstraintLayoutGuideDSL.swift */,
+				CFE751A374465C7B070D834701EE0EEA /* ConstraintLayoutSupport.swift */,
+				D14322428E41B0FCD2CA703029283488 /* ConstraintLayoutSupportDSL.swift */,
+				65F7C3BB6F54ADA991017C5DDEFA1629 /* ConstraintMaker.swift */,
+				744D5BE83E0C1D453497FEDE85FA195E /* ConstraintMakerEditable.swift */,
+				8421E75598759B2D94D3367B7AFD67A4 /* ConstraintMakerExtendable.swift */,
+				CD26587C0DB592BBC5EC597722D34511 /* ConstraintMakerFinalizable.swift */,
+				9C4C0FE157C0F096E382586B6E4D94A1 /* ConstraintMakerPriortizable.swift */,
+				42FCF5B128E95810B57C6CF33D7C3A1D /* ConstraintMakerRelatable.swift */,
+				89E30801580EDF7ED97707E3CA9FB563 /* ConstraintMultiplierTarget.swift */,
+				F016D57519CC5B05E6DE6F2E309473A7 /* ConstraintOffsetTarget.swift */,
+				7D9EF129235841032BCE6E6519A22B53 /* ConstraintPriority.swift */,
+				54E09F59F0E2281AF786356592AD6069 /* ConstraintPriorityTarget.swift */,
+				1F2B122DB4985DD4B14A542EC5E910E1 /* ConstraintRelatableTarget.swift */,
+				8272388D203CAADE527234C5B82D7D01 /* ConstraintRelation.swift */,
+				63672B517E88F4D79F7ACB4E8287CD1E /* ConstraintView.swift */,
+				CF9BCE407CBF06DE3F41EE432704878B /* ConstraintView+Extensions.swift */,
+				492B12E03F71AB0253ED2919F66BB9F5 /* ConstraintViewDSL.swift */,
+				D149D5FBF637645FA500EDA5E1216363 /* Debugging.swift */,
+				104B91EFC74CC36551E5AA065CD4D837 /* LayoutConstraint.swift */,
+				D75F6DB1FF78B77686259BECF321DE68 /* LayoutConstraintItem.swift */,
+				75CF91EB830AED1A2523D121C543A079 /* Typealiases.swift */,
+				7026C079E66912E23A66E957FF32E4FA /* UILayoutSupport+Extensions.swift */,
+				E7FFDE1CB0E41F1D28775FC7BC730B2C /* Support Files */,
 			);
-			name = ChameleonFramework;
-			path = ChameleonFramework;
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		2999DBC64A1D899898A6AEEB699884E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64DBB4D16AF026F418997908C2644CD8 /* DatePickerDialog.modulemap */,
+				2735EBF948BD8786A741B6D3110F03BB /* DatePickerDialog.xcconfig */,
+				A9A768959CF0D18021AB21299B5277B3 /* DatePickerDialog-dummy.m */,
+				80C422754282B64CCFCC82C3E9712113 /* DatePickerDialog-Info.plist */,
+				3CDB62F8A232D287054C820386E021EA /* DatePickerDialog-prefix.pch */,
+				8409CCA54C8428054217F9FFA2362C53 /* DatePickerDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DatePickerDialog";
 			sourceTree = "<group>";
 		};
 		37A4574AA6EDF2CCE5BC4D16CD0CDAE9 /* Targets Support Files */ = {
@@ -345,70 +450,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		39CDD051B9EB168AAB27534D9BB81108 /* DatePickerDialog */ = {
+		39BE50C72EAD571487009CA275CFDBE4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0553406AAAC8EFCA163D8D3C34AC31E /* DatePickerDialog.swift */,
-				4E2F8A926C49334BAB8DC1B9DC301DBF /* Support Files */,
-			);
-			name = DatePickerDialog;
-			path = DatePickerDialog;
-			sourceTree = "<group>";
-		};
-		4E2F8A926C49334BAB8DC1B9DC301DBF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				156C3D9C54AE2D3B9A961D8AE6BC83ED /* DatePickerDialog.modulemap */,
-				40AC3E4FDF02F44CD7B51C8BC29669BF /* DatePickerDialog.xcconfig */,
-				26ECB01D7C31D5DB36D3307D41C2AA9D /* DatePickerDialog-dummy.m */,
-				98FB3F44843B1E02CA1EAFD1E020A3C3 /* DatePickerDialog-Info.plist */,
-				13332C1C6860A7B8147061DD27AFAD33 /* DatePickerDialog-prefix.pch */,
-				E66BD3DC573BB61C33480AA39A545142 /* DatePickerDialog-umbrella.h */,
+				EFAD3C7305D4B778CC08D38D471C4C49 /* ChameleonFramework.modulemap */,
+				EFC57928D3B354FD9C428D25F51ABEA8 /* ChameleonFramework.xcconfig */,
+				EDE1596369E55223433F31164B999DE4 /* ChameleonFramework-dummy.m */,
+				7ACB5CF085776299391433471BCAAB10 /* ChameleonFramework-Info.plist */,
+				86C10F1C7A0EFC28B01BC19B9AAEA7D0 /* ChameleonFramework-prefix.pch */,
+				1673624EC7FC2F40EDEA1103DBB43569 /* ChameleonFramework-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DatePickerDialog";
+			path = "../Target Support Files/ChameleonFramework";
 			sourceTree = "<group>";
 		};
-		8EF8DED8197ECCE67FE9636B98D51B18 /* Default */ = {
+		50FBE77FF4B00A9BBE76CF5DEFDC1B8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A811BF9B23970FEA584CB25FFC8BFCD6 /* Chameleon.h */,
-				1B09F9B32F3C23038F0BA82C3AF3E1DD /* Chameleon_.h */,
-				E0C5E2F8F868FE682E8161F4F3B1D5C9 /* Chameleon_.m */,
-				AA58BB18EC67A6AD69BB3CC7BF350652 /* ChameleonConstants.h */,
-				A77F7CE9AB297A197377A3E979AEFE24 /* ChameleonConstants.m */,
-				7EE7E5E03CF02F868D816FAAD1661648 /* ChameleonEnums.h */,
-				44EA500B9F1A3231FD646B4333EFB116 /* ChameleonMacros.h */,
-				B2BF9BFA2709D3E50F7DFE3BCBC454DF /* NSArray+Chameleon.h */,
-				450FED72933D2F8115B7DAC4346E6E38 /* NSArray+Chameleon.m */,
-				8CF258D799D77152A157B94948345ABA /* UIAppearance+Swift.h */,
-				0FB88CC734799C3298608F6ED7C43CB6 /* UIAppearance+Swift.m */,
-				8210CAE82B53F88F1A659E055E1C7A55 /* UIButton+Chameleon.h */,
-				1936916A50FCC251276E0C3AD4BEDB39 /* UIButton+Chameleon.m */,
-				66DD1A823FD6ADE056DF82ED806E9A58 /* UIColor+Chameleon.h */,
-				125D4AA0C1F88F240AD5E706FDA1425C /* UIColor+Chameleon.m */,
-				A4A06E2527020824A7653A69506D0266 /* UIColor+ChameleonPrivate.h */,
-				1BC7B3AFD1EAE5D227D16C6B5E0383CF /* UIColor+ChameleonPrivate.m */,
-				3B736155808712A81BD945669700E769 /* UIImage+ChameleonPrivate.h */,
-				D6047A2BD22F76419D9EA52EB1A9BBE8 /* UIImage+ChameleonPrivate.m */,
-				A827D0419F7D3AA0C8FC6BCEE31C01F9 /* UILabel+Chameleon.h */,
-				6E430F85BAE26BC8CFC78A53E9B23590 /* UILabel+Chameleon.m */,
-				B2614873436159116B479321A7B3361A /* UINavigationController+Chameleon.h */,
-				D31E35759B496FC575AAE31C665A04A0 /* UINavigationController+Chameleon.m */,
-				126C521FA3B555161183192787761D46 /* UIView+ChameleonPrivate.h */,
-				9A1A415E3D52213BE2A3B29D95474C08 /* UIView+ChameleonPrivate.m */,
-				980A407787B31B4EC3822BC3B800D0F0 /* UIViewController+Chameleon.h */,
-				E2D2E8EA9A6850D8FBE43A9DE43BA199 /* UIViewController+Chameleon.m */,
+				600F66CB4411505467CC78512ABA25AF /* BTNavigationDropdownMenu.framework */,
+				574F1A549D3FD9E9D8D8F4A22D1B24EA /* ChameleonFramework.framework */,
+				60EBD23F63FF0E1018EC731801452BDB /* DatePickerDialog.framework */,
+				A21A7146E085497DC2B3DC3E65303276 /* EasyTipView.framework */,
+				ABF0863E06A501064EFA982E32412F5D /* Pods_Manage_Preschool_itchenK.framework */,
+				4D14B44E806FE79DC4241A4C4261766D /* SnapKit.framework */,
 			);
-			name = Default;
-			sourceTree = "<group>";
-		};
-		A152C65C86650BBC7F207C1EA1C0C9E7 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				F0DDF2198C825F9D1F9145B4D8701144 /* ChameleonShorthand.swift */,
-			);
-			name = Swift;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A2752A806DA28DEB4C3128BC4BD72CAE /* iOS */ = {
@@ -422,15 +488,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A70CE0B80B1C8BAA8F584E9F95985E31 /* EasyTipView */ = {
+		A40E0A1E114F0D99C504D3F8ADABA73B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E2AF94306DA12212B179C94DDEAB182 /* EasyTipView.swift */,
-				BE53710EE56D0DC8A9D8F6B3CF951ACC /* UIKitExtensions.swift */,
-				22A1BBAB0D8A7EE765BF4C5139AAB809 /* Support Files */,
+				9D81AF2CA6283294E163F16A6358A323 /* EasyTipView.modulemap */,
+				91274F383FB6F582474E8704678A187A /* EasyTipView.xcconfig */,
+				040D3AE12821F7B627C79313B38295A0 /* EasyTipView-dummy.m */,
+				79E17ECF14E9D316F2D7B123F5D32FEB /* EasyTipView-Info.plist */,
+				0699919C5F3240B327CF5678FB2350C4 /* EasyTipView-prefix.pch */,
+				CF4A8A0F6E4D7E422297929F38C4F0C4 /* EasyTipView-umbrella.h */,
 			);
-			name = EasyTipView;
-			path = EasyTipView;
+			name = "Support Files";
+			path = "../Target Support Files/EasyTipView";
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
@@ -441,95 +510,111 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BDB8EC7C2128541B229E0ED0952A4203 /* DatePickerDialog */ = {
+			isa = PBXGroup;
+			children = (
+				FBB8D3D63411957FE00F7E804C18FE6C /* DatePickerDialog.swift */,
+				2999DBC64A1D899898A6AEEB699884E3 /* Support Files */,
+			);
+			name = DatePickerDialog;
+			path = DatePickerDialog;
+			sourceTree = "<group>";
+		};
+		C1E771D5C9339111A955B1ED61428755 /* EasyTipView */ = {
+			isa = PBXGroup;
+			children = (
+				C03C122ADB1FAFEB7158DF1DE4303103 /* EasyTipView.swift */,
+				5754715D1D1B561480C1F206B5BC91B7 /* UIKitExtensions.swift */,
+				A40E0A1E114F0D99C504D3F8ADABA73B /* Support Files */,
+			);
+			name = EasyTipView;
+			path = EasyTipView;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				DF73B51C6E779C634C56B8BD5D38BEA9 /* Pods */,
-				F9674F5562F340B8D35C992D3D5579B7 /* Products */,
+				05B7C5E31798463BAA49874ADEA994AF /* Pods */,
+				50FBE77FF4B00A9BBE76CF5DEFDC1B8C /* Products */,
 				37A4574AA6EDF2CCE5BC4D16CD0CDAE9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DF73B51C6E779C634C56B8BD5D38BEA9 /* Pods */ = {
+		E250FAF9A50F67DDB77D3988D873C63A /* Default */ = {
 			isa = PBXGroup;
 			children = (
-				277520EA85F740528E5E39A878601681 /* ChameleonFramework */,
-				39CDD051B9EB168AAB27534D9BB81108 /* DatePickerDialog */,
-				A70CE0B80B1C8BAA8F584E9F95985E31 /* EasyTipView */,
-				F190356E675C759D54EDD8697952276F /* SnapKit */,
+				81C984E63524E16193B825076C3BACD1 /* Chameleon.h */,
+				31FC1C952E0C2E991C0EFBF325246352 /* Chameleon_.h */,
+				F65401FE930DBA49A5FE2D887AB30711 /* Chameleon_.m */,
+				58EB031B188EE343D6F9A0D9BDC20160 /* ChameleonConstants.h */,
+				355D953149088DB0D95F71C4A0724FFC /* ChameleonConstants.m */,
+				0B3D7077421FCBD98E12E1D226675172 /* ChameleonEnums.h */,
+				BF9E9EBAC73D0D58D8ED16F890516519 /* ChameleonMacros.h */,
+				03AC928CDF364B7E8876965640B06424 /* NSArray+Chameleon.h */,
+				5105479C5DFC23EB82D192016BDEB5B4 /* NSArray+Chameleon.m */,
+				E07B789F8B94832F727893B2C1294DC3 /* UIAppearance+Swift.h */,
+				EE51445E50CCDD06645DFDA41CBD8C11 /* UIAppearance+Swift.m */,
+				E9BAFA3B95E776E7CC28598AC17F289A /* UIButton+Chameleon.h */,
+				C436869A7DBD581FA411F1C313CF93EB /* UIButton+Chameleon.m */,
+				25FB759DA06B54A7E8EF9506D5DCF825 /* UIColor+Chameleon.h */,
+				AB61698B1FC44687986C3D7BEBABBD40 /* UIColor+Chameleon.m */,
+				F336FCFAE63CCB1CD7A8067052F513E4 /* UIColor+ChameleonPrivate.h */,
+				BC6AD3231AD3C56171347EFF796A9A81 /* UIColor+ChameleonPrivate.m */,
+				BE8D59B2A18DD9A436BB5F76A96D6D82 /* UIImage+ChameleonPrivate.h */,
+				793207FBE3AE477CAC4B9867FCE31E62 /* UIImage+ChameleonPrivate.m */,
+				928B5FB4051EA6A92391A04E2E9F3CD3 /* UILabel+Chameleon.h */,
+				A0172739B139930940E7166235A7E265 /* UILabel+Chameleon.m */,
+				F360C5EE4DAD4A74B35C77082A845BF2 /* UINavigationController+Chameleon.h */,
+				A56D8F9BCB916293629BE249AB3999DA /* UINavigationController+Chameleon.m */,
+				FF5B1FBD4745C5839DA39D62AC4830AF /* UIView+ChameleonPrivate.h */,
+				B4BA76CB42B172BB6FFBBDAA20BB0DCD /* UIView+ChameleonPrivate.m */,
+				7CB1A33409DD8B417C371B4767692F08 /* UIViewController+Chameleon.h */,
+				B9F72C46639A0754E6E8758DAAC8D9D0 /* UIViewController+Chameleon.m */,
 			);
-			name = Pods;
+			name = Default;
 			sourceTree = "<group>";
 		};
-		EAF39C302D05204EE415174DF8E77987 /* Support Files */ = {
+		E6961DB347EF53E207F4DC7687158166 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				628E24FA42EE687CFD9380443C24728E /* SnapKit.modulemap */,
-				8B4B29596027E83697BFA7E4DF828CDC /* SnapKit.xcconfig */,
-				FE0A0F81F37C46AED4286D9CFA22288A /* SnapKit-dummy.m */,
-				77A746DF90FADE6ADA5D2C0510B200FD /* SnapKit-Info.plist */,
-				C39E28260286E550AD06C417375B8551 /* SnapKit-prefix.pch */,
-				AA4E2D88899FE69D3EFE131BEACC740B /* SnapKit-umbrella.h */,
+				BD222BEF783CF7C9C43F5804AC8AAFE4 /* BTNavigationDropdownMenu.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E7FFDE1CB0E41F1D28775FC7BC730B2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86756B62E4976442949A2DE20D15EAE0 /* SnapKit.modulemap */,
+				7E723A2351D82F5E6AE394F22DED5849 /* SnapKit.xcconfig */,
+				C3D5E10E2398C00590649C179CFA87DA /* SnapKit-dummy.m */,
+				199B567B12F880FA620E14E9364DE97F /* SnapKit-Info.plist */,
+				16C602328D7A52B5CBF1355FB7142CC1 /* SnapKit-prefix.pch */,
+				40BF00521C997F81C73256A5766479BF /* SnapKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
-		F190356E675C759D54EDD8697952276F /* SnapKit */ = {
+		EA26695DDFA0F3082D935CFF53E7A615 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				16EA5C5F44F39B52C48B6F4103073DBB /* Constraint.swift */,
-				5D1556E3FED71A4C2E98D265E145BF9F /* ConstraintAttributes.swift */,
-				8362F6DDC870701BA933FC08F1F7AA78 /* ConstraintConfig.swift */,
-				FEA5EB9D3C91AD78B1E485F525C5429F /* ConstraintConstantTarget.swift */,
-				20E26CBAB57B87133557228D11CFFF86 /* ConstraintDescription.swift */,
-				30BF65FDB7BABBD4B558E8C07158B677 /* ConstraintDSL.swift */,
-				44B2F202ECE81B121C3020DC304D8833 /* ConstraintInsets.swift */,
-				B34720B6D5997737441236D6CBBBB191 /* ConstraintInsetTarget.swift */,
-				81139628745746DE12731FDFF63EA802 /* ConstraintItem.swift */,
-				0A1A29EF1C91B291AD4A033883A31AC1 /* ConstraintLayoutGuide.swift */,
-				3267362D97688AD42802BCF686AB1BAC /* ConstraintLayoutGuide+Extensions.swift */,
-				6AF37D231D54F3C60AA54FE2FBED5714 /* ConstraintLayoutGuideDSL.swift */,
-				A98A697296800A6666E4D6C83F16B4D9 /* ConstraintLayoutSupport.swift */,
-				BECC5319D4DA366A2048CF66457F692E /* ConstraintLayoutSupportDSL.swift */,
-				E115858A46D7A82A5B0A4B8BB084054C /* ConstraintMaker.swift */,
-				7C33833F00B373A25BCB25A2114573B7 /* ConstraintMakerEditable.swift */,
-				9035EA1E5816F7F66FA9374890007937 /* ConstraintMakerExtendable.swift */,
-				E37CD03EB3D270B208DE6093A1DA7505 /* ConstraintMakerFinalizable.swift */,
-				BDDBC8A362969AEF469C87AFF05D5583 /* ConstraintMakerPriortizable.swift */,
-				C9392C86DDCC53635EA7A83DC47C532D /* ConstraintMakerRelatable.swift */,
-				3D816487B248E803962DA131B88E2D7E /* ConstraintMultiplierTarget.swift */,
-				7B99855C4753A7C9BE0BC11AB69D3589 /* ConstraintOffsetTarget.swift */,
-				7CAD324EB287A8E8BEB4419D7CE91E64 /* ConstraintPriority.swift */,
-				D6ABA208A505CB8E1772A7B64A0D557F /* ConstraintPriorityTarget.swift */,
-				06D29C74FE85B0D2C3083A8723BE6421 /* ConstraintRelatableTarget.swift */,
-				B8413C2186B83B3287DF3B4D6671C4E3 /* ConstraintRelation.swift */,
-				D52EE43C02BB300A2F936C20680B14A8 /* ConstraintView.swift */,
-				7041AF44143C98BB8FB3EC724D50F52C /* ConstraintView+Extensions.swift */,
-				E5694151A184B4FC05BC9C09D8416B97 /* ConstraintViewDSL.swift */,
-				F8FE1D8418489FFFD01331E19CA4D49C /* Debugging.swift */,
-				4BAD6C44BF7856EE3232EA2FDBBCCDAF /* LayoutConstraint.swift */,
-				E0BDE7B8B5E66BEFE8C566084C99F5F1 /* LayoutConstraintItem.swift */,
-				9B4D38432673BE146600DFC7181CE014 /* Typealiases.swift */,
-				F16112090A612ED6AA7263D9F318FE85 /* UILayoutSupport+Extensions.swift */,
-				EAF39C302D05204EE415174DF8E77987 /* Support Files */,
+				9EBAEEF460D30F86B2E1BD8C1BB04CA0 /* ChameleonShorthand.swift */,
 			);
-			name = SnapKit;
-			path = SnapKit;
+			name = Swift;
 			sourceTree = "<group>";
 		};
-		F9674F5562F340B8D35C992D3D5579B7 /* Products */ = {
+		F330A9113736EA4016EA1CD5167E1212 /* ChameleonFramework */ = {
 			isa = PBXGroup;
 			children = (
-				27E6FCE24C321328638C3BD7C70F6F6A /* ChameleonFramework.framework */,
-				3F3606535FE17E4CCB072AD3DC0AC2F3 /* DatePickerDialog.framework */,
-				5755CC85B7A362958A17983448321736 /* EasyTipView.framework */,
-				509125A06362F0D61CB4043D0094C45F /* Pods_Manage_Preschool_itchenK.framework */,
-				AF9F35EEFB4D36A0205335F679B59E23 /* SnapKit.framework */,
+				E250FAF9A50F67DDB77D3988D873C63A /* Default */,
+				39BE50C72EAD571487009CA275CFDBE4 /* Support Files */,
+				EA26695DDFA0F3082D935CFF53E7A615 /* Swift */,
 			);
-			name = Products;
+			name = ChameleonFramework;
+			path = ChameleonFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -548,6 +633,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B0DD5E8FD3BF049E7691214635E937E /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6905B4F08FC2FE950496E5B23F412BE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B947534AB52B34EE80B59A4EE0EA24C /* BTNavigationDropdownMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,11 +667,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9159A067B31EA6CC7FE8E24FD0F2CB2 /* Headers */ = {
+		CBF09588AE1A7000FBEA8BCF140107AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B586683C206690E530FF19CAF508A57 /* Pods-Manage_Preschool_itchenK-umbrella.h in Headers */,
+				B6A89892DD26D4339D22C04199757A2F /* Pods-Manage_Preschool_itchenK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,7 +701,7 @@
 			);
 			name = EasyTipView;
 			productName = EasyTipView;
-			productReference = 5755CC85B7A362958A17983448321736 /* EasyTipView.framework */;
+			productReference = A21A7146E085497DC2B3DC3E65303276 /* EasyTipView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
@@ -626,7 +719,7 @@
 			);
 			name = SnapKit;
 			productName = SnapKit;
-			productReference = AF9F35EEFB4D36A0205335F679B59E23 /* SnapKit.framework */;
+			productReference = 4D14B44E806FE79DC4241A4C4261766D /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		28BFDC89BA4363F4F3576DEC70EE10AE /* ChameleonFramework */ = {
@@ -644,7 +737,7 @@
 			);
 			name = ChameleonFramework;
 			productName = ChameleonFramework;
-			productReference = 27E6FCE24C321328638C3BD7C70F6F6A /* ChameleonFramework.framework */;
+			productReference = 574F1A549D3FD9E9D8D8F4A22D1B24EA /* ChameleonFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		977B67E6ADDDC9C183DE6B6E33F17FCC /* DatePickerDialog */ = {
@@ -662,29 +755,48 @@
 			);
 			name = DatePickerDialog;
 			productName = DatePickerDialog;
-			productReference = 3F3606535FE17E4CCB072AD3DC0AC2F3 /* DatePickerDialog.framework */;
+			productReference = 60EBD23F63FF0E1018EC731801452BDB /* DatePickerDialog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D6EF149836B9E91AFC1CDCE6137DB43D /* Pods-Manage_Preschool_itchenK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9C31B4C805C57FD2AC29765124C4FC6 /* Build configuration list for PBXNativeTarget "Pods-Manage_Preschool_itchenK" */;
+			buildConfigurationList = 6CA2F79D0CCCC7D61EF2D2E2C1F00F01 /* Build configuration list for PBXNativeTarget "Pods-Manage_Preschool_itchenK" */;
 			buildPhases = (
-				B9159A067B31EA6CC7FE8E24FD0F2CB2 /* Headers */,
-				B68ECAC57D4894AE56ADB67135A658E3 /* Sources */,
-				BB478D33FD1A9E8173A14458349ADA4D /* Frameworks */,
-				DE1653E0C7402509BA1B51B8315C6388 /* Resources */,
+				CBF09588AE1A7000FBEA8BCF140107AF /* Headers */,
+				611E3F3297AD6D38FAAB9CC1F7F6E09E /* Sources */,
+				75A7AAA6936FCE8D6DA07FA1CAF99252 /* Frameworks */,
+				3E2DB9EBB8DEFBBE331A27D31BBA9E93 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3662CB0E593C4BD33DEC27D3E199415E /* PBXTargetDependency */,
-				C267800FC0E2B44B375D0C750FAE42A3 /* PBXTargetDependency */,
-				544F5628F0CD0887239A80D9166E1FA5 /* PBXTargetDependency */,
-				7CC5DCD1F35C708945E64704063F2A6C /* PBXTargetDependency */,
+				71B4ECA16030D787F5266C50712BC3A5 /* PBXTargetDependency */,
+				EA4A380FF3B2A664469DE4B202817E83 /* PBXTargetDependency */,
+				058DC46A9AD4F3C36027D3A4EF9321C3 /* PBXTargetDependency */,
+				F47E70A649BB8840BE0A51649A0E9C5B /* PBXTargetDependency */,
+				A3216035C79DEEE6BF976320995878EF /* PBXTargetDependency */,
 			);
 			name = "Pods-Manage_Preschool_itchenK";
 			productName = "Pods-Manage_Preschool_itchenK";
-			productReference = 509125A06362F0D61CB4043D0094C45F /* Pods_Manage_Preschool_itchenK.framework */;
+			productReference = ABF0863E06A501064EFA982E32412F5D /* Pods_Manage_Preschool_itchenK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5F1E6214A6184999F9D513F4A0E9682 /* BTNavigationDropdownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EE240D820B9F8305057C7F4D2E0D1D /* Build configuration list for PBXNativeTarget "BTNavigationDropdownMenu" */;
+			buildPhases = (
+				6905B4F08FC2FE950496E5B23F412BE5 /* Headers */,
+				D930F33E55AC61571109F51CE842A80C /* Sources */,
+				B04D447B240069F2EDA1D13D559A9B44 /* Frameworks */,
+				BC6D63339727A79BBF6C5D4B59AC5355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTNavigationDropdownMenu;
+			productName = BTNavigationDropdownMenu;
+			productReference = 600F66CB4411505467CC78512ABA25AF /* BTNavigationDropdownMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -704,10 +816,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F9674F5562F340B8D35C992D3D5579B7 /* Products */;
+			productRefGroup = 50FBE77FF4B00A9BBE76CF5DEFDC1B8C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E5F1E6214A6184999F9D513F4A0E9682 /* BTNavigationDropdownMenu */,
 				28BFDC89BA4363F4F3576DEC70EE10AE /* ChameleonFramework */,
 				977B67E6ADDDC9C183DE6B6E33F17FCC /* DatePickerDialog */,
 				048D21E3C8151CD23D428D38093E1538 /* EasyTipView */,
@@ -732,6 +845,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E2DB9EBB8DEFBBE331A27D31BBA9E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		53023B1871ECF48C0CD55A204E1122F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -739,14 +859,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C883BD92026C55A0068979F1C400758C /* Resources */ = {
+		BC6D63339727A79BBF6C5D4B59AC5355 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634A4E17FDDE3E79C725F17D93ABF8CA /* BTNavigationDropdownMenu.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE1653E0C7402509BA1B51B8315C6388 /* Resources */ = {
+		C883BD92026C55A0068979F1C400758C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -828,11 +949,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B68ECAC57D4894AE56ADB67135A658E3 /* Sources */ = {
+		611E3F3297AD6D38FAAB9CC1F7F6E09E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF032AC5472375E3B6E33083B44EBF59 /* Pods-Manage_Preschool_itchenK-dummy.m in Sources */,
+				8B9E001CDC4AF40F838C0E50C3DB8542 /* Pods-Manage_Preschool_itchenK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D930F33E55AC61571109F51CE842A80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB371A5EBB031608249E448465BCE29 /* BTConfiguration.swift in Sources */,
+				6114B3724F5BE0B8D4D8F673FD80F39C /* BTNavigationDropdownMenu-dummy.m in Sources */,
+				0A6B5EA3CBFC85C6F7C2E05CF23541DD /* BTNavigationDropdownMenu.swift in Sources */,
+				7C0F8CCE08BA884CC034BB58E8CEE39E /* BTTableCellContentView.swift in Sources */,
+				2876CEE75A4A479964830F8BB802ED51 /* BTTableView.swift in Sources */,
+				98DCC25FE33CB748BA694BED7CC95792 /* BTTableViewCell.swift in Sources */,
+				A60850BB9EC0A7549E305C13EA598042 /* BTTitle.swift in Sources */,
+				C5783CE9C4B3CE9A8E87876041E8039E /* UIView+Extension.swift in Sources */,
+				D74D816088E267D03A4D3F2F4B01CBDD /* UIViewController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -849,29 +986,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3662CB0E593C4BD33DEC27D3E199415E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ChameleonFramework;
-			target = 28BFDC89BA4363F4F3576DEC70EE10AE /* ChameleonFramework */;
-			targetProxy = 88D10932FAEF664A36E6F2731AC8450B /* PBXContainerItemProxy */;
-		};
-		544F5628F0CD0887239A80D9166E1FA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EasyTipView;
-			target = 048D21E3C8151CD23D428D38093E1538 /* EasyTipView */;
-			targetProxy = 5C6240D2203DB2D7BD379B7D03F825BD /* PBXContainerItemProxy */;
-		};
-		7CC5DCD1F35C708945E64704063F2A6C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = A8F06EA51B75E0B2E5142E294AF5B67E /* PBXContainerItemProxy */;
-		};
-		C267800FC0E2B44B375D0C750FAE42A3 /* PBXTargetDependency */ = {
+		058DC46A9AD4F3C36027D3A4EF9321C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DatePickerDialog;
 			target = 977B67E6ADDDC9C183DE6B6E33F17FCC /* DatePickerDialog */;
-			targetProxy = CBF932A140BDA8F2BE7E6AF0A0165A55 /* PBXContainerItemProxy */;
+			targetProxy = A328912B37531E8C39472A045164C399 /* PBXContainerItemProxy */;
+		};
+		71B4ECA16030D787F5266C50712BC3A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BTNavigationDropdownMenu;
+			target = E5F1E6214A6184999F9D513F4A0E9682 /* BTNavigationDropdownMenu */;
+			targetProxy = 91A5DCDA8A2B3E82AB4D70C7C13B44D9 /* PBXContainerItemProxy */;
+		};
+		A3216035C79DEEE6BF976320995878EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 8E5DCB9E3C8DE5AC0395277BE2E87672 /* PBXContainerItemProxy */;
+		};
+		EA4A380FF3B2A664469DE4B202817E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 28BFDC89BA4363F4F3576DEC70EE10AE /* ChameleonFramework */;
+			targetProxy = 5A2845CBBFE0ADAF32F920DBFE15C6F1 /* PBXContainerItemProxy */;
+		};
+		F47E70A649BB8840BE0A51649A0E9C5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyTipView;
+			target = 048D21E3C8151CD23D428D38093E1538 /* EasyTipView */;
+			targetProxy = 0D63C679BCE6F441D7CE2CBF831755EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -940,9 +1083,9 @@
 			};
 			name = Debug;
 		};
-		32F46CC96396B8EB02909444FE21B762 /* Debug */ = {
+		1139F21C0415D62E8670BE4CB9695D06 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5B0C400F30106486ED8C27A2D4A376B /* EasyTipView.xcconfig */;
+			baseConfigurationReference = 1EA3AB9CB725256207F944D97517569E /* BTNavigationDropdownMenu.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -953,8 +1096,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EasyTipView/EasyTipView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EasyTipView/EasyTipView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -962,20 +1105,21 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/EasyTipView/EasyTipView.modulemap";
-				PRODUCT_MODULE_NAME = EasyTipView;
-				PRODUCT_NAME = EasyTipView;
+				MODULEMAP_FILE = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu.modulemap";
+				PRODUCT_MODULE_NAME = BTNavigationDropdownMenu;
+				PRODUCT_NAME = BTNavigationDropdownMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5189F93B0A975DDE9AC6EF2596317091 /* Debug */ = {
+		1832E7B6C602179A854490B9BE563525 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37B50BE3747E2175BE89FB644A37666A /* Pods-Manage_Preschool_itchenK.debug.xcconfig */;
 			buildSettings = {
@@ -1012,9 +1156,9 @@
 			};
 			name = Debug;
 		};
-		52B155456A890653ECFD078C2B116E2A /* Debug */ = {
+		32F46CC96396B8EB02909444FE21B762 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B4B29596027E83697BFA7E4DF828CDC /* SnapKit.xcconfig */;
+			baseConfigurationReference = 91274F383FB6F582474E8704678A187A /* EasyTipView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1025,8 +1169,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyTipView/EasyTipView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyTipView/EasyTipView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1034,9 +1178,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
+				MODULEMAP_FILE = "Target Support Files/EasyTipView/EasyTipView.modulemap";
+				PRODUCT_MODULE_NAME = EasyTipView;
+				PRODUCT_NAME = EasyTipView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1047,7 +1191,7 @@
 			};
 			name = Debug;
 		};
-		52DD82258D889695526D981415831CC1 /* Release */ = {
+		3FAEB92145DB3111A3DD674BDDB9A1BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 730D923D2051F4EA80DE3657916E0E3E /* Pods-Manage_Preschool_itchenK.release.xcconfig */;
 			buildSettings = {
@@ -1085,9 +1229,44 @@
 			};
 			name = Release;
 		};
+		52B155456A890653ECFD078C2B116E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E723A2351D82F5E6AE394F22DED5849 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		58FDD731EEC05FA0F908F66B108EDA27 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 422EE023ADA6E4C7C9CA82357FCF71A7 /* ChameleonFramework.xcconfig */;
+			baseConfigurationReference = EFC57928D3B354FD9C428D25F51ABEA8 /* ChameleonFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1123,7 +1302,7 @@
 		};
 		819FCA6FFE406EE69D37851C9688C483 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40AC3E4FDF02F44CD7B51C8BC29669BF /* DatePickerDialog.xcconfig */;
+			baseConfigurationReference = 2735EBF948BD8786A741B6D3110F03BB /* DatePickerDialog.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1218,7 +1397,7 @@
 		};
 		A22C3C57A53933ED1BFA8B3E9C039087 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40AC3E4FDF02F44CD7B51C8BC29669BF /* DatePickerDialog.xcconfig */;
+			baseConfigurationReference = 2735EBF948BD8786A741B6D3110F03BB /* DatePickerDialog.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1254,7 +1433,7 @@
 		};
 		C451653B8A5DC6ECA28660D72EACE786 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B4B29596027E83697BFA7E4DF828CDC /* SnapKit.xcconfig */;
+			baseConfigurationReference = 7E723A2351D82F5E6AE394F22DED5849 /* SnapKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1288,9 +1467,44 @@
 			};
 			name = Release;
 		};
+		D6FD7D7D6AA513DF7915AF674AC79CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA3AB9CB725256207F944D97517569E /* BTNavigationDropdownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu.modulemap";
+				PRODUCT_MODULE_NAME = BTNavigationDropdownMenu;
+				PRODUCT_NAME = BTNavigationDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F6838F7E44A32C864FBCEA6CFBB6967F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 422EE023ADA6E4C7C9CA82357FCF71A7 /* ChameleonFramework.xcconfig */;
+			baseConfigurationReference = EFC57928D3B354FD9C428D25F51ABEA8 /* ChameleonFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1325,7 +1539,7 @@
 		};
 		F8219BCDDFDEC9E1DA648E2CD280F6EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5B0C400F30106486ED8C27A2D4A376B /* EasyTipView.xcconfig */;
+			baseConfigurationReference = 91274F383FB6F582474E8704678A187A /* EasyTipView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1380,11 +1594,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		52EE240D820B9F8305057C7F4D2E0D1D /* Build configuration list for PBXNativeTarget "BTNavigationDropdownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FD7D7D6AA513DF7915AF674AC79CB6 /* Debug */,
+				1139F21C0415D62E8670BE4CB9695D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6C6427EDAB5E97397D7170EC5C3AA906 /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6838F7E44A32C864FBCEA6CFBB6967F /* Debug */,
 				58FDD731EEC05FA0F908F66B108EDA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA2F79D0CCCC7D61EF2D2E2C1F00F01 /* Build configuration list for PBXNativeTarget "Pods-Manage_Preschool_itchenK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1832E7B6C602179A854490B9BE563525 /* Debug */,
+				3FAEB92145DB3111A3DD674BDDB9A1BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1403,15 +1635,6 @@
 			buildConfigurations = (
 				819FCA6FFE406EE69D37851C9688C483 /* Debug */,
 				A22C3C57A53933ED1BFA8B3E9C039087 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9C31B4C805C57FD2AC29765124C4FC6 /* Build configuration list for PBXNativeTarget "Pods-Manage_Preschool_itchenK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5189F93B0A975DDE9AC6EF2596317091 /* Debug */,
-				52DD82258D889695526D981415831CC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

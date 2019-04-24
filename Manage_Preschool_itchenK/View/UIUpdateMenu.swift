@@ -24,7 +24,8 @@ extension UpdateMenuVC {
     }
     
     @objc func addNavBtnClicked() {
-        print("Clicked")
+        let addFoodVC = AddFoodToMenuVC()
+        navigationController?.pushViewController(addFoodVC, animated: true)
     }
     
     func setupGeneral() {

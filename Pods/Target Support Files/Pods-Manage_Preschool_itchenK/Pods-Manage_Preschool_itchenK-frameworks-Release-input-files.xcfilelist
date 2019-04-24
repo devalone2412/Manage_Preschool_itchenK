@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-Manage_Preschool_itchenK/Pods-Manage_Preschool_itchenK-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework
 ${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework
 ${BUILT_PRODUCTS_DIR}/DatePickerDialog/DatePickerDialog.framework
 ${BUILT_PRODUCTS_DIR}/EasyTipView/EasyTipView.framework

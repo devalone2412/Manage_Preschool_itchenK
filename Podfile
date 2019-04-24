@@ -10,4 +10,5 @@ pod 'SnapKit'
 pod 'ChameleonFramework/Swift'
 pod 'DatePickerDialog'
 pod 'EasyTipView'
+pod 'BTNavigationDropdownMenu'
 end
