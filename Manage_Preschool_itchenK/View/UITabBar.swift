@@ -17,10 +17,12 @@ extension TabBarVC {
         
         let fm = FoodManagementVC()
         let navController1 = UINavigationController(rootViewController: fm)
+        
         let im = InventoryManagementVC()
+        let navController2 = UINavigationController(rootViewController: im)
         
         
-        viewControllers = [navController,navController1,im]
+        viewControllers = [navController,navController1,navController2]
     }
     
     func customTabBarItem() {
