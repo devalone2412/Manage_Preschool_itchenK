@@ -34,6 +34,7 @@
 		3DE01EDE22659E5000AB08DB /* UILogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE01EDC22659E5000AB08DB /* UILogin.swift */; };
 		3DE01EDF22659E5000AB08DB /* UIFoodManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE01EDD22659E5000AB08DB /* UIFoodManagement.swift */; };
 		8A30CD496F27F8AFCEECC48B /* Pods_Manage_Preschool_itchenK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC5E47581384BD04AAABA86 /* Pods_Manage_Preschool_itchenK.framework */; };
+		D816DB75227012B5009E3785 /* FoodListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816DB74227012B5009E3785 /* FoodListCell.swift */; };
 		D82886D0226D545C008EBF7A /* FoodListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82886CF226D545C008EBF7A /* FoodListVC.swift */; };
 		D82886D2226D5492008EBF7A /* UIFoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82886D1226D5492008EBF7A /* UIFoodList.swift */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 		3DE01EDD22659E5000AB08DB /* UIFoodManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFoodManagement.swift; sourceTree = "<group>"; };
 		7A27227341B3809DBF96CC8D /* Pods-Manage_Preschool_itchenK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manage_Preschool_itchenK.release.xcconfig"; path = "Target Support Files/Pods-Manage_Preschool_itchenK/Pods-Manage_Preschool_itchenK.release.xcconfig"; sourceTree = "<group>"; };
 		8DC5E47581384BD04AAABA86 /* Pods_Manage_Preschool_itchenK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Manage_Preschool_itchenK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D816DB74227012B5009E3785 /* FoodListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListCell.swift; sourceTree = "<group>"; };
 		D82886CF226D545C008EBF7A /* FoodListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListVC.swift; sourceTree = "<group>"; };
 		D82886D1226D5492008EBF7A /* UIFoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFoodList.swift; sourceTree = "<group>"; };
 		FAA7D737E77831C704DE6BFC /* Pods-Manage_Preschool_itchenK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manage_Preschool_itchenK.debug.xcconfig"; path = "Target Support Files/Pods-Manage_Preschool_itchenK/Pods-Manage_Preschool_itchenK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,13 +159,14 @@
 			children = (
 				3DE01EDD22659E5000AB08DB /* UIFoodManagement.swift */,
 				D82886D1226D5492008EBF7A /* UIFoodList.swift */,
-				3DE01EDC22659E5000AB08DB /* UILogin.swift */,
-				3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */,
+				D816DB74227012B5009E3785 /* FoodListCell.swift */,
 				3D53185D226791E6003A468D /* UICookingSchedule.swift */,
+				3D1CC200226D716000F9388E /* FoodCell.swift */,
+				3DE01EDC22659E5000AB08DB /* UILogin.swift */,
 				3D04CFC42268C1BC00695507 /* UITabBar.swift */,
 				3DDCBB18226CB6F60082FF98 /* CalendarCell.swift */,
 				3D59604B226D5267009B39CD /* CalendarCellHeader.swift */,
-				3D1CC200226D716000F9388E /* FoodCell.swift */,
+				3D530E9B226790E2009E6A0B /* UIInventoryManagement.swift */,
 				3D1CC204226DA77A00F9388E /* UIUpdateMenu.swift */,
 				3D3AE36D226E18A200D1D5D8 /* FoodDetailsCell.swift */,
 				3DB2FF0B226EAAB000A810AE /* UIAddFoodToMenu.swift */,
@@ -337,6 +340,7 @@
 				3D1CC201226D716000F9388E /* FoodCell.swift in Sources */,
 				3D1CC1FF226D6A4600F9388E /* UpdateMenuVC.swift in Sources */,
 				3D04CFC52268C1BC00695507 /* UITabBar.swift in Sources */,
+				D816DB75227012B5009E3785 /* FoodListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

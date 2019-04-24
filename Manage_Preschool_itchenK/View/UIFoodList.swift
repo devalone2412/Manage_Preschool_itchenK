@@ -36,14 +36,22 @@ extension FoodListVC {
     }
     
     func addUIControls(){
+        view.addSubview(imgBackground)
         view.addSubview(categoryName)
         categoryName.addSubview(categoryImage)
         categoryName.addSubview(categoryLabel)
+        view.addSubview(FLTableView)
     }
     func setupUIControls() {
+        setupImgBackground()
         setupCategoryName()
         setupCategoryImage()
         setupCategoryLabel()
+    }
+    
+    func setupImgBackground(){
+        imgBackground.image = UIImage(named: IMGBACKGROUND)
+        imgBackground.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func setupCategoryName(){
@@ -69,6 +77,8 @@ extension FoodListVC {
         setupCategoryNameConstraints()
         setupCategoryImageConstraints()
         setupCategoryLabelConstraints()
+        setupFLTableViewConstraints()
+        setupImgBackgroundConstraints()
     }
     
     func setupCategoryNameConstraints(){
@@ -92,6 +102,20 @@ extension FoodListVC {
         categoryLabel.snp.makeConstraints { (make) in
             make.bottom.left.right.equalToSuperview()
             make.height.equalToSuperview().multipliedBy(0.2)
+        }
+    }
+    
+    func setupFLTableViewConstraints(){
+        FLTableView.snp.makeConstraints { (make) in
+            make.top.equalTo(categoryName.snp.bottom).offset(35)
+            make.left.right.equalToSuperview()
+            make.bottom.equalToSuperview()
+        }
+    }
+    
+    func setupImgBackgroundConstraints(){
+        imgBackground.snp.makeConstraints { (make) in
+            make.edges.equalTo(view.safeAreaLayoutGuide)
         }
     }
     
